@@ -17,6 +17,16 @@ export default function Index() {
             </form>
           </div>
         </section>
+        {/* <!-- text - start --> */}
+        <section>
+          <div className="mb-10 md:mb-16">
+            <h2 className="text-gray-800 text-lg md:text-3xl lg:text-4xl font-bold text-center mb-4 md:mb-6">誰でも気軽にホームページがもてる時代に</h2>
+            <p className="max-w-screen-md text-gray-500 text-sm md:text-base text-center mx-auto break-keep">
+            「いろいろな人に知ってもらうため」「信頼を得るため」「情報を発信するため」、ホームページを作る理由は様々です。だれもが何にだって挑戦できる時代だからこそ、一人ひとりの思いを届けるための場所を形にします。
+            </p>
+          </div>
+        </section>
+        {/* <!-- text - end --> */}
       </Layout>
   )
 }
