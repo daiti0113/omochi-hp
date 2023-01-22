@@ -11,9 +11,9 @@ export default function Index() {
           <title>{SITE_NAME} | Home</title>
         </Head>
         <Container>
-          <h1 className="text-5xl md:text-8xl font-bold tracking-tighter leading-tight md:pr-8">
-            Blog Template
-          </h1>
+          <span className="text-3xl md:text-3xl font-bold tracking-tighter leading-tight md:pr-8">
+            Omochi
+          </span>
         </Container>
       </Layout>
     </>
