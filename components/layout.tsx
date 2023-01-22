@@ -1,5 +1,3 @@
-import Link from 'next/link'
-import Container from './container'
 import Footer from './footer'
 import Meta from './meta'
 import { Header } from './organisms/Header'
@@ -14,10 +12,10 @@ const Layout = ({ preview, children }: Props) => {
     <>
       <Meta />
       <div className="min-h-screen">
-        <Container>
+        <div className="container max-w-screen-2xl px-4 md:px-10 lg:px-20 xl:px-40 mx-auto">
           <Header />
           <main>{children}</main>
-        </Container>
+        </div>
       </div>
       <Footer />
     </>
