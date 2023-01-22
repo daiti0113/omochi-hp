@@ -1,8 +1,16 @@
 import Layout from '../components/layout'
 import Head from 'next/head'
 import { SITE_NAME } from '../lib/constants'
+import { getAllPosts } from '../lib/api'
+import MoreStories from '../components/more-stories'
+import Post from '../interfaces/post'
 
-export default function Index() {
+type Props = {
+  allPosts: Post[]
+}
+
+export default function Index({ allPosts }: Props) {
+  const morePosts = allPosts
   return (
       <Layout>
         <Head>
@@ -68,6 +76,24 @@ export default function Index() {
             </div>
           </div>
         </section>
+        <section>
+          {morePosts.length > 0 && <MoreStories posts={morePosts} />}
+        </section>
       </Layout>
   )
+}
+
+export const getStaticProps = async () => {
+  const allPosts = getAllPosts([
+    'title',
+    'date',
+    'slug',
+    'author',
+    'coverImage',
+    'excerpt',
+  ])
+
+  return {
+    props: { allPosts },
+  }
 }
