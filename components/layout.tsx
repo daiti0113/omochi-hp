@@ -18,7 +18,7 @@ const Layout = ({ preview, children }: Props) => {
             <span className="text-3xl md:text-3xl font-bold tracking-tighter leading-tight md:pr-8">
               Omochi
             </span>
-            <div className="flex text-lg gap-x-5">
+            <div className="flex text-lg gap-x-5 ml-auto">
               <Link href="/">HOME</Link>
               <Link href="/portfolio">PORTFOLIO</Link>
               <Link href="/pricing">PRICING</Link>
