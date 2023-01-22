@@ -8,7 +8,7 @@ export default function Index() {
     <>
       <Layout>
         <Head>
-          <title>{SITE_NAME}</title>
+          <title>{SITE_NAME} | Home</title>
         </Head>
         <Container>
           <h1 className="text-5xl md:text-8xl font-bold tracking-tighter leading-tight md:pr-8">
