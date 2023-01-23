@@ -1,5 +1,3 @@
-import Avatar from './avatar'
-import DateFormatter from './date-formatter'
 import CoverImage from './cover-image'
 import Link from 'next/link'
 import type Author from '../interfaces/author'
@@ -22,7 +20,7 @@ const PostPreview = ({
   slug,
 }: Props) => {
   return (
-    <div>
+    <div className="shadow-lg bg-white py-5 px-7 rounded-2xl max-w-sm">
       <div className="mb-5">
         <CoverImage slug={slug} title={title} src={coverImage} />
       </div>
@@ -35,11 +33,7 @@ const PostPreview = ({
           {title}
         </Link>
       </h3>
-      <div className="text-lg mb-4">
-        <DateFormatter dateString={date} />
-      </div>
-      <p className="text-lg leading-relaxed mb-4">{excerpt}</p>
-      <Avatar name={author.name} picture={author.picture} />
+      <p className="text-lg text-gray-500 leading-relaxed mb-4">{excerpt}</p>
     </div>
   )
 }
