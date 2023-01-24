@@ -20,20 +20,22 @@ const PostPreview = ({
   slug,
 }: Props) => {
   return (
-    <div className="shadow-lg bg-white py-5 px-7 rounded-2xl max-w-sm">
-      <div className="mb-5">
-        <CoverImage slug={slug} title={title} src={coverImage} />
+    <div>
+      <div className="w-80 max-w-xs rounded-lg shadow-md bg-white hover:shadow-xl transition-shadow duration-300 ease-in-out">
+        <div className="mb-5">
+          <CoverImage slug={slug} title={title} src={coverImage} />
+        </div>
+        <h3 className="text-3xl mb-3 leading-snug">
+          <Link
+            as={`/posts/${slug}`}
+            href="/posts/[slug]"
+            className="hover:underline"
+          >
+            {title}
+          </Link>
+        </h3>
+        <p className="text-lg text-gray-500 leading-relaxed mb-4">{excerpt}</p>
       </div>
-      <h3 className="text-3xl mb-3 leading-snug">
-        <Link
-          as={`/posts/${slug}`}
-          href="/posts/[slug]"
-          className="hover:underline"
-        >
-          {title}
-        </Link>
-      </h3>
-      <p className="text-lg text-gray-500 leading-relaxed mb-4">{excerpt}</p>
     </div>
   )
 }
