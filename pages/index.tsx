@@ -4,7 +4,7 @@ import { SITE_NAME } from '../lib/constants'
 import { getAllPosts } from '../lib/api'
 import MoreStories from '../components/more-stories'
 import Post from '../interfaces/post'
-import { SectionContainer } from '../components/templates/SectionContainer'
+import { SectionContainer } from '../components/molecules/SectionContainer'
 
 type Props = {
   allPosts: Post[]
