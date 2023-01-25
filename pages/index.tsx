@@ -77,9 +77,7 @@ export default function Index({ allPosts }: Props) {
             </div>
           </div>
         </SectionContainer>
-        <SectionContainer>
-          {morePosts.length > 0 && <MoreStories posts={morePosts} />}
-        </SectionContainer>
+        {morePosts.length > 0 && <MoreStories posts={morePosts} />}
       </Layout>
   )
 }

@@ -21,7 +21,7 @@ const PostPreview = ({
 }: Props) => {
   return (
     <div>
-      <div className="w-80 max-w-xs rounded-lg shadow-md bg-white hover:shadow-xl transition-shadow duration-300 ease-in-out">
+      <div className="w-96 p-5 rounded-lg shadow-md bg-white hover:shadow-xl transition-shadow duration-300 ease-in-out">
         <div className="mb-5">
           <CoverImage slug={slug} title={title} src={coverImage} />
         </div>
