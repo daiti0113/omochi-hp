@@ -1,5 +1,5 @@
-import Footer from './footer'
 import Meta from './meta'
+import { Footer } from './organisms/Footer'
 import { Header } from './organisms/Header'
 
 type Props = {
