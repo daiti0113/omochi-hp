@@ -2,7 +2,7 @@ import Link from 'next/link'
 
 export const Footer = () => {
   return (
-    <footer className="bg-black mt-32 px-48 py-12">
+    <footer className="bg-black mt-32 px-10 md:px-20 lg:px-48 py-12">
       <div className="flex">
         <div className="flex-none w-60">
           <Link href="/" className="text-white hover:text-gray-300 text-3xl lg:text-[2.5rem] lg:text-left h-fit w-fit">
