@@ -32,8 +32,11 @@ export default function Index({ allPosts }: Props) {
         {/* <!-- text - start --> */}
         <SectionContainer>
           <div className="mb-10 md:mb-16">
-            <h2 className="text-gray-800 text-lg md:text-3xl lg:text-4xl font-bold text-center mb-4 md:mb-6">誰でも気軽にホームページがもてる時代に</h2>
-            <p className="max-w-screen-md text-gray-500 text-sm md:text-base text-center mx-auto break-keep">
+            <h2 className="text-gray-800 text-xl sm:text-2xl md:text-3xl lg:text-4xl font-bold text-center">
+              <span className="inline-block leading-normal">誰でも気軽に</span>
+              <span className="inline-block leading-normal">ホームページがもてる時代に</span>
+            </h2>
+            <p className="max-w-screen-md text-gray-500 text-sm mt-8 md:text-base text-center mx-auto break-keep">
             「いろいろな人に知ってもらうため」「信頼を得るため」「情報を発信するため」、ホームページを作る理由は様々です。だれもが何にだって挑戦できる時代だからこそ、一人ひとりの思いを届けるための場所を形にします。
             </p>
           </div>
