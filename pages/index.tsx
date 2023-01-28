@@ -36,7 +36,7 @@ export default function Index({ allPosts }: Props) {
               <span className="inline-block leading-normal">誰でも気軽に</span>
               <span className="inline-block leading-normal">ホームページがもてる時代に</span>
             </h2>
-            <p className="max-w-screen-md text-gray-500 text-sm mt-8 md:text-base text-center mx-auto">
+            <p className="max-w-screen-md text-gray-500 text-sm md:text-base mt-8 text-center mx-auto">
             「いろいろな人に知ってもらうため」「信頼を得るため」「情報を発信するため」、ホームページを作る理由は様々です。だれもが何にだって挑戦できる時代だからこそ、一人ひとりの思いを届けるための場所を形にします。
             </p>
           </div>
@@ -56,7 +56,7 @@ export default function Index({ allPosts }: Props) {
                     <span className="inline-block leading-normal">こんなに作ったんだよ。</span>
                     <span className="inline-block leading-normal">すごいでしょ。</span>
                   </h1>
-                  <p className="text-gray-500 text-center md:text-start text-base mb-6 md:mb-8">
+                  <p className="text-gray-500 text-center md:text-start text-sm md:text-base mb-6 md:mb-8">
                     美容室とかカフェとかたくさん回って、丁寧にヒアリングしてたくさん作ったんだよ。頼まれたらすぐ作っちゃうから依頼してね。でーじ上等な一眼レフも買ったから、素材がないときも気軽に相談していいからね。
                   </p>
                   <div className="grid grid-cols-1 sm:grid-cols-3 px-10 sm:px-0 gap-4">
