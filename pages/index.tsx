@@ -52,7 +52,7 @@ export default function Index({ allPosts }: Props) {
                   </div>
                 </div>
                 <div>
-                  <h1 className="text-black text-2xl md:text-3xl font-bold text-center md:text-left mb-4 md:mb-6">
+                  <h1 className="text-black text-2xl md:text-3xl font-bold text-center md:text-left mb-4 md:mb-6 mt-6">
                     <span className="inline-block leading-normal">こんなに作ったんだよ。</span>
                     <span className="inline-block leading-normal">すごいでしょ。</span>
                   </h1>
