@@ -1,3 +1,4 @@
+// eslint-disable-next-line no-undef
 module.exports = {
     "env": {
         "browser": true,
@@ -7,15 +8,14 @@ module.exports = {
         "eslint:recommended",
         "plugin:react/recommended"
     ],
+    "parser": "@typescript-eslint/parser",
     "parserOptions": {
-        "ecmaFeatures": {
-            "jsx": true
-        },
-        "ecmaVersion": 11,
+        "ecmaVersion": "latest",
         "sourceType": "module"
     },
     "plugins": [
-        "react"
+        "react",
+        "@typescript-eslint"
     ],
     "rules": {
         "linebreak-style": ["error", "unix"],
@@ -37,8 +37,6 @@ module.exports = {
         "block-spacing": ["error", "never"],
         "object-curly-spacing": ["error", "never"],
         "comma-dangle": ["error", "never"],
-        "react-native/no-unused-styles": 2,
-        "react-native/no-inline-styles": 2,
         "react/jsx-uses-react": "off",
         "react/react-in-jsx-scope": "off"
     }
