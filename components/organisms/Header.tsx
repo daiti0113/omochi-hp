@@ -1,5 +1,6 @@
 import Link from "next/link"
 import { useState } from "react"
+import { CONTACT_URL } from "../../lib/constants"
 
 export const Header = () => {
     const [menuVisible, setMenuVisible] = useState(false)
@@ -20,7 +21,7 @@ export const Header = () => {
                 <Link href="/" className="hover:text-gray-500 transition duration-100">HOME</Link>
                 <Link href="/portfolio" className="hover:text-gray-500 transition duration-100">PORTFOLIO</Link>
                 <Link href="/pricing" className="hover:text-gray-500 transition duration-100">PRICING</Link>
-                <Link href="/contact-us" className="hover:text-gray-500 transition duration-100">CONTACT US</Link>
+                <Link href={CONTACT_URL} target="_blank" className="hover:text-gray-500 transition duration-100">CONTACT US</Link>
             </nav>
             {/* <!-- nav - end --> */}
 
@@ -47,7 +48,7 @@ export const Header = () => {
                             <Link href="/pricing" className="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">PRICING</Link>
                         </li>
                         <li>
-                            <Link href="/contact-us" className="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">CONTACT US</Link>
+                            <Link href={CONTACT_URL} target="_blank" className="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">CONTACT US</Link>
                         </li>
                     </ul>
                 </div>
