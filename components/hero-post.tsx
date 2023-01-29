@@ -13,6 +13,7 @@ type Props = {
   slug: string
 }
 
+// eslint-disable-next-line max-lines-per-function
 const HeroPost = ({
     title,
     coverImage,

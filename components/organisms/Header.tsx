@@ -2,6 +2,7 @@ import Link from "next/link"
 import {useState} from "react"
 import {CONTACT_URL} from "../../lib/constants"
 
+// eslint-disable-next-line max-lines-per-function
 export const Header = () => {
     const [menuVisible, setMenuVisible] = useState(false)
 

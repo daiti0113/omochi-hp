@@ -14,9 +14,7 @@ type Props = {
 const PostPreview = ({
     title,
     coverImage,
-    date,
     excerpt,
-    author,
     slug
 }: Props) => {
     return (

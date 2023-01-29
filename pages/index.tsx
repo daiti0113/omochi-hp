@@ -10,6 +10,7 @@ type Props = {
   allPosts: Post[]
 }
 
+// eslint-disable-next-line max-lines-per-function
 export default function Index({allPosts}: Props) {
     const morePosts = allPosts
     return (

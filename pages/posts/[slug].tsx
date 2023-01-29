@@ -14,16 +14,16 @@ import type PostType from "../../interfaces/post"
 type Props = {
   post: PostType
   morePosts: PostType[]
-  preview?: boolean
 }
 
-export default function Post({post, morePosts, preview}: Props) {
+// eslint-disable-next-line max-lines-per-function
+export default function Post({post}: Props) {
     const router = useRouter()
     if (!router.isFallback && !post?.slug) {
         return <ErrorPage statusCode={404} />
     }
     return (
-        <Layout preview={preview}>
+        <Layout>
             <Header />
             {router.isFallback ? (
                 <PostTitle>Loading…</PostTitle>

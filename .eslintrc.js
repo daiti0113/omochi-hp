@@ -1,4 +1,3 @@
-// eslint-disable-next-line no-undef
 module.exports = {
     "env": {
         "browser": true,
@@ -39,5 +38,10 @@ module.exports = {
         "comma-dangle": ["error", "never"],
         "react/jsx-uses-react": "off",
         "react/react-in-jsx-scope": "off"
+    },
+    "globals": {
+        "process": true,
+        "module": true,
+        "require": true
     }
 }
