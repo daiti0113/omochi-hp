@@ -1,6 +1,6 @@
-import CoverImage from './cover-image'
-import Link from 'next/link'
-import type Author from '../interfaces/author'
+import CoverImage from "./cover-image"
+import Link from "next/link"
+import type Author from "../interfaces/author"
 
 type Props = {
   title: string
@@ -12,32 +12,32 @@ type Props = {
 }
 
 const PostPreview = ({
-  title,
-  coverImage,
-  date,
-  excerpt,
-  author,
-  slug,
+    title,
+    coverImage,
+    date,
+    excerpt,
+    author,
+    slug
 }: Props) => {
-  return (
-    <div>
-      <div className="w-72 md:w-80 max-h-[30rem] md:max-h-[40rem] p-5 rounded-lg shadow-md bg-white hover:shadow-xl transition-shadow duration-300 ease-in-out">
-        <div className="mb-5">
-          <CoverImage slug={slug} title={title} src={coverImage} />
+    return (
+        <div>
+            <div className="w-72 md:w-80 max-h-[30rem] md:max-h-[40rem] p-5 rounded-lg shadow-md bg-white hover:shadow-xl transition-shadow duration-300 ease-in-out">
+                <div className="mb-5">
+                    <CoverImage slug={slug} title={title} src={coverImage} />
+                </div>
+                <h3 className="text-lg md:text-xl lg:text-2xl mb-3 truncate">
+                    <Link
+                        as={`/posts/${slug}`}
+                        href="/posts/[slug]"
+                        className="hover:underline"
+                    >
+                        {title}
+                    </Link>
+                </h3>
+                <p className="text-lg text-gray-500 leading-snug mb-4 line-clamp-3 md:line-clamp-5">{excerpt}</p>
+            </div>
         </div>
-        <h3 className="text-lg md:text-xl lg:text-2xl mb-3 truncate">
-          <Link
-            as={`/posts/${slug}`}
-            href="/posts/[slug]"
-            className="hover:underline"
-          >
-            {title}
-          </Link>
-        </h3>
-        <p className="text-lg text-gray-500 leading-snug mb-4 line-clamp-3 md:line-clamp-5">{excerpt}</p>
-      </div>
-    </div>
-  )
+    )
 }
 
 export default PostPreview
