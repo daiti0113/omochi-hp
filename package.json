@@ -5,7 +5,8 @@
     "build": "next build",
     "start": "next start",
     "typecheck": "tsc",
-    "lint": "eslint --ext .js,.jsx,.ts,.tsx ."
+    "lint": "eslint '**/*.{js,jsx,ts,tsx}'",
+    "lint:fix": "eslint --fix '**/*.{js,jsx,ts,tsx}'"
   },
   "dependencies": {
     "@tailwindcss/line-clamp": "^0.4.2",

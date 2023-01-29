@@ -1,4 +1,3 @@
-// eslint-disable-next-line react-native/no-unused-styles, no-undef
 module.exports = {
     "env": {
         "browser": true,

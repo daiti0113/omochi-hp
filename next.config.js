@@ -4,6 +4,6 @@
 
 module.exports = {
     images: {
-      loader: 'custom',
-    },
+        loader: "custom"
+    }
 }
