@@ -1,3 +1,4 @@
+import {Headline} from "../atoms/Headline"
 import {SectionContainer} from "../molecules/SectionContainer"
 
 // eslint-disable-next-line max-lines-per-function
@@ -13,10 +14,10 @@ export const Stats = () => {
                             </div>
                         </div>
                         <div>
-                            <h1 className="text-black text-2xl md:text-3xl font-bold text-center md:text-left mb-4 md:mb-6 mt-6">
+                            <Headline className="md:text-left mb-4 md:mb-6 mt-6">
                                 <span className="inline-block leading-normal">こんなに作ったんだよ。</span>
                                 <span className="inline-block leading-normal">すごいでしょ。</span>
-                            </h1>
+                            </Headline>
                             <p className="text-gray-500 text-center md:text-start text-sm md:text-base mb-6 md:mb-8">
                                 美容室とかカフェとかたくさん回って、丁寧にヒアリングしてたくさん作ったんだよ。頼まれたらすぐ作っちゃうから依頼してね。でーじ上等な一眼レフも買ったから、素材がないときも気軽に相談していいからね。
                             </p>
