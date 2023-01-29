@@ -1,4 +1,5 @@
 import Link from 'next/link'
+import { CONTACT_URL } from '../../lib/constants'
 
 export const Footer = () => {
   return (
@@ -13,7 +14,7 @@ export const Footer = () => {
           <Link href="/" className="text-white hover:text-gray-500 text-sm transition duration-100 w-fit">HOME</Link>
           <Link href="/portfolio" className="text-white hover:text-gray-500 text-sm transition duration-100 w-fit">PORTFOLIO</Link>
           <Link href="/pricing" className="text-white hover:text-gray-500 text-sm transition duration-100 w-fit">PRICING</Link>
-          <Link href="/contact-us" className="text-white hover:text-gray-500 text-sm transition duration-100 w-fit">CONTACT US</Link>
+          <Link href={CONTACT_URL} target="_blank" className="text-white hover:text-gray-500 text-sm transition duration-100 w-fit">CONTACT US</Link>
         </div>
       </div>
     </footer>
