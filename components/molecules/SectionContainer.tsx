@@ -1,5 +1,7 @@
+import {ReactNode} from "react"
+
 type SectionContainerProps = {
-    children: React.ReactNode
+    children: ReactNode
 }
 
 export const SectionContainer = ({children}: SectionContainerProps) => {
