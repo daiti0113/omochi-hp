@@ -1,4 +1,4 @@
-import { Feature } from "../molecules/Feature"
+import {Feature} from "../molecules/Feature"
 
 // eslint-disable-next-line max-lines-per-function
 export const Pricing = () => {
@@ -21,26 +21,14 @@ export const Pricing = () => {
                             </div>
                         </div>
 
-                        <div className="flex-1 bg-gray-100 rounded-lg space-y-3 px-4 py-6">
+                        <div className="bg-gray-100 rounded-lg space-y-3 px-4 py-6">
                             <Feature>常時SSL対応</Feature>
-                            <div className="flex gap-2">
-                                <svg xmlns="http://www.w3.org/2000/svg" className="w-6 h-6 shrink-0 text-indigo-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
-                                </svg>
-                                <span className="text-gray-600">2.000 MB bandwidth per month</span>
-                            </div>
-                            <div className="flex gap-2">
-                                <svg xmlns="http://www.w3.org/2000/svg" className="w-6 h-6 shrink-0 text-indigo-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
-                                </svg>
-                                <span className="text-gray-600">200 tasks per month</span>
-                            </div>
-                            <div className="flex gap-2">
-                                <svg xmlns="http://www.w3.org/2000/svg" className="w-6 h-6 shrink-0 text-indigo-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
-                                </svg>
-                                <span className="text-gray-600">Comunity support</span>
-                            </div>
+                            <Feature>レスポンシブデザイン</Feature>
+                            <Feature>サーバー容量 : 5GB</Feature>
+                            <Feature>ブログ</Feature>
+                            <Feature>お問い合わせフォーム</Feature>
+                            <Feature>Googleビジネスプロフィール</Feature>
+                            <Feature>SEOサポート</Feature>
                         </div>
                     </div>
                     {/* <!-- plan - end --> */}
@@ -61,37 +49,16 @@ export const Pricing = () => {
                             </div>
                         </div>
 
-                        <div className="flex-1 bg-gray-100 rounded-lg space-y-3 px-4 py-6">
-                            <div className="flex gap-2">
-                                <svg xmlns="http://www.w3.org/2000/svg" className="w-6 h-6 shrink-0 text-indigo-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
-                                </svg>
-                                <span className="text-gray-600">Unlimited file storage</span>
-                            </div>
-                            <div className="flex gap-2">
-                                <svg xmlns="http://www.w3.org/2000/svg" className="w-6 h-6 shrink-0 text-indigo-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
-                                </svg>
-                                <span className="text-gray-600">10 GB bandwidth per month</span>
-                            </div>
-                            <div className="flex gap-2">
-                                <svg xmlns="http://www.w3.org/2000/svg" className="w-6 h-6 shrink-0 text-indigo-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
-                                </svg>
-                                <span className="text-gray-600">10.000 tasks per month</span>
-                            </div>
-                            <div className="flex gap-2">
-                                <svg xmlns="http://www.w3.org/2000/svg" className="w-6 h-6 shrink-0 text-indigo-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
-                                </svg>
-                                <span className="text-gray-600">Email support</span>
-                            </div>
-                            <div className="flex gap-2">
-                                <svg xmlns="http://www.w3.org/2000/svg" className="w-6 h-6 shrink-0 text-indigo-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
-                                </svg>
-                                <span className="text-gray-600">100 Webhooks</span>
-                            </div>
+                        <div className="bg-gray-100 rounded-lg space-y-3 px-4 py-6 h-fit">
+                            <Feature>常時SSL対応</Feature>
+                            <Feature>レスポンシブデザイン</Feature>
+                            <Feature>サーバー容量 : 5GB</Feature>
+                            <Feature>ブログ</Feature>
+                            <Feature>お問い合わせフォーム</Feature>
+                            <Feature>Googleビジネスプロフィール</Feature>
+                            <Feature>SEOサポート</Feature>
+                            <Feature>Googleビジネスプロフィール</Feature>
+                            <Feature className="font-bold">オリジナルデザインの実装</Feature>
                         </div>
                     </div>
                     {/* <!-- plan - end --> */}
@@ -109,37 +76,17 @@ export const Pricing = () => {
                             </div>
                         </div>
 
-                        <div className="flex-1 bg-gray-100 rounded-lg space-y-3 px-4 py-6">
-                            <div className="flex gap-2">
-                                <svg xmlns="http://www.w3.org/2000/svg" className="w-6 h-6 shrink-0 text-indigo-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
-                                </svg>
-                                <span className="text-gray-600">Unlimited file storage</span>
-                            </div>
-                            <div className="flex gap-2">
-                                <svg xmlns="http://www.w3.org/2000/svg" className="w-6 h-6 shrink-0 text-indigo-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
-                                </svg>
-                                <span className="text-gray-600">Unlimited bandwidth per month</span>
-                            </div>
-                            <div className="flex gap-2">
-                                <svg xmlns="http://www.w3.org/2000/svg" className="w-6 h-6 shrink-0 text-indigo-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
-                                </svg>
-                                <span className="text-gray-600">1.000.000 tasks per month</span>
-                            </div>
-                            <div className="flex gap-2">
-                                <svg xmlns="http://www.w3.org/2000/svg" className="w-6 h-6 shrink-0 text-indigo-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
-                                </svg>
-                                <span className="text-gray-600">Email and phone support</span>
-                            </div>
-                            <div className="flex gap-2">
-                                <svg xmlns="http://www.w3.org/2000/svg" className="w-6 h-6 shrink-0 text-indigo-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
-                                </svg>
-                                <span className="text-gray-600">Unlimited Webhooks</span>
-                            </div>
+                        <div className="bg-gray-100 rounded-lg space-y-3 px-4 py-6 h-fit">
+                            <Feature>常時SSL対応</Feature>
+                            <Feature>レスポンシブデザイン</Feature>
+                            <Feature>サーバー容量 : 5GB</Feature>
+                            <Feature>ブログ</Feature>
+                            <Feature>お問い合わせフォーム</Feature>
+                            <Feature>Googleビジネスプロフィール</Feature>
+                            <Feature>SEOサポート</Feature>
+                            <Feature>Googleビジネスプロフィール</Feature>
+                            <Feature>オリジナルデザインの実装</Feature>
+                            <Feature className="font-bold">オリジナル機能の実装</Feature>
                         </div>
                     </div>
                     {/* <!-- plan - end --> */}
