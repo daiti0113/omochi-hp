@@ -1,3 +1,5 @@
+import { Feature } from "../molecules/Feature"
+
 // eslint-disable-next-line max-lines-per-function
 export const Pricing = () => {
     return (
@@ -20,12 +22,7 @@ export const Pricing = () => {
                         </div>
 
                         <div className="flex-1 bg-gray-100 rounded-lg space-y-3 px-4 py-6">
-                            <div className="flex gap-2">
-                                <svg xmlns="http://www.w3.org/2000/svg" className="w-6 h-6 shrink-0 text-indigo-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
-                                </svg>
-                                <span className="text-gray-600">1.000 MB file storage</span>
-                            </div>
+                            <Feature>常時SSL対応</Feature>
                             <div className="flex gap-2">
                                 <svg xmlns="http://www.w3.org/2000/svg" className="w-6 h-6 shrink-0 text-indigo-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
