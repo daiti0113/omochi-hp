@@ -1,3 +1,4 @@
+import { Headline } from "../atoms/Headline"
 import {Feature} from "../molecules/Feature"
 
 // eslint-disable-next-line max-lines-per-function
@@ -5,9 +6,12 @@ export const Pricing = () => {
     return (
         <div className="bg-white py-6 sm:py-8 lg:py-12">
             <div className="max-w-screen-xl px-4 md:px-8 mx-auto">
-                <h2 className="text-gray-800 text-2xl lg:text-3xl font-bold text-center mb-4 md:mb-8 xl:mb-12">料金プラン</h2>
-
-                <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-x-6 lg:gap-x-8 gap-y-12 mb-6 md:mb-8">
+                <Headline>料金プラン</Headline>
+                <p className="max-w-screen-md text-gray-500 text-sm md:text-base mt-8 text-center mx-auto">
+                    <span>初期費用として制作費を頂きホームページが完成してから、</span>
+                    <span>運用代行費としての月額料金になるシンプルなプランです。</span>
+                </p>
+                <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-x-6 lg:gap-x-8 gap-y-12 my-6 md:my-8">
                     {/* <!-- plan - start --> */}
                     <div className="flex flex-col space-y-4">
                         <div className="flex flex-col border rounded-lg gap-4 p-4 pt-6">
