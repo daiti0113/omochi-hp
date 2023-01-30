@@ -17,7 +17,6 @@ export const Pricing = () => {
                             <div className="flex justify-center items-center text-gray-500 text-sm gap-1 mb-4">
                                 + ¥30,000 の制作費
                             </div>
-                            <a href="#" className="block bg-gray-200 hover:bg-gray-300 focus-visible:ring ring-indigo-300 text-gray-500 active:text-gray-700 text-sm md:text-base font-semibold text-center rounded-lg outline-none transition duration-100 px-8 py-3">Select Free</a>
                         </div>
 
                         <div className="flex-1 bg-gray-100 rounded-lg space-y-3 px-4 py-6">
@@ -63,7 +62,6 @@ export const Pricing = () => {
                             <div className="flex justify-center items-center text-gray-500 text-sm gap-1 mb-4">
                                 + ¥50,000 の制作費
                             </div>
-                            <a href="#" className="block bg-indigo-500 hover:bg-indigo-600 active:bg-indigo-700 focus-visible:ring ring-indigo-300 text-white text-sm md:text-base font-semibold text-center rounded-lg outline-none transition duration-100 px-8 py-3">Select Team</a>
                         </div>
 
                         <div className="flex-1 bg-gray-100 rounded-lg space-y-3 px-4 py-6">
@@ -112,7 +110,6 @@ export const Pricing = () => {
                             <div className="flex justify-center items-center text-gray-500 text-sm gap-1 mb-4">
                                 + ¥60,000 の制作費
                             </div>
-                            <a href="#" className="block bg-gray-800 hover:bg-gray-700 active:bg-gray-600 focus-visible:ring ring-indigo-300 text-white text-sm md:text-base font-semibold text-center rounded-lg outline-none transition duration-100 px-8 py-3">Select Enterprise</a>
                         </div>
 
                         <div className="flex-1 bg-gray-100 rounded-lg space-y-3 px-4 py-6">
