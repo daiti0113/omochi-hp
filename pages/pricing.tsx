@@ -1,5 +1,6 @@
 import Layout from "../components/layout"
 import Head from "next/head"
+import {Pricing} from "../components/organisms/Pricing"
 
 export default function Index() {
     return (
@@ -8,10 +9,7 @@ export default function Index() {
                 <Head>
                     <title>Pricing</title>
                 </Head>
-                <h1 className="text-5xl md:text-8xl font-bold tracking-tighter leading-tight md:pr-8">
-                    Pricing.
-                </h1>
-                <p>これはテストページです。</p>
+                <Pricing />
             </Layout>
         </>
     )
