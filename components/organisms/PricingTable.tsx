@@ -3,7 +3,7 @@ import {Feature} from "../molecules/Feature"
 // eslint-disable-next-line max-lines-per-function
 export const PricingTable = () => {
     return (
-        <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-x-6 lg:gap-x-8 gap-y-12 my-6 md:my-8">
+        <div className="grid lg:grid-cols-3 gap-x-6 lg:gap-x-8 gap-y-12 my-6 md:my-8">
             {/* <!-- plan - start --> */}
             <div className="flex flex-col space-y-4">
                 <div className="flex flex-col border rounded-lg gap-4 p-4 pt-6">
@@ -17,14 +17,16 @@ export const PricingTable = () => {
                     </div>
                 </div>
 
-                <div className="bg-gray-100 rounded-lg space-y-3 px-4 py-6">
-                    <Feature>常時SSL対応</Feature>
-                    <Feature>レスポンシブデザイン</Feature>
-                    <Feature>ブログ</Feature>
-                    <Feature>お問い合わせフォーム</Feature>
-                    <Feature>Googleビジネスプロフィール</Feature>
-                    <Feature>SEOサポート</Feature>
-                    <Feature>サーバー容量 : 5GB</Feature>
+                <div className="bg-gray-100 rounded-lg space-y-3 px-6 py-6">
+                    <div className="max-w-fit sm:mx-auto">
+                        <Feature>常時SSL対応</Feature>
+                        <Feature>レスポンシブデザイン</Feature>
+                        <Feature>ブログ</Feature>
+                        <Feature>お問い合わせフォーム</Feature>
+                        <Feature>Googleビジネスプロフィール</Feature>
+                        <Feature>SEOサポート</Feature>
+                        <Feature>サーバー容量 : 5GB</Feature>
+                    </div>
                 </div>
             </div>
             {/* <!-- plan - end --> */}
@@ -45,15 +47,17 @@ export const PricingTable = () => {
                     </div>
                 </div>
 
-                <div className="bg-gray-100 rounded-lg space-y-3 px-4 py-6 h-fit">
-                    <Feature>常時SSL対応</Feature>
-                    <Feature>レスポンシブデザイン</Feature>
-                    <Feature>ブログ</Feature>
-                    <Feature>お問い合わせフォーム</Feature>
-                    <Feature>Googleビジネスプロフィール</Feature>
-                    <Feature>SEOサポート</Feature>
-                    <Feature className="font-bold">サーバー容量 : 400GB</Feature>
-                    <Feature className="font-bold">オリジナルデザインの実装</Feature>
+                <div className="bg-gray-100 rounded-lg space-y-3 px-6 py-6">
+                    <div className="max-w-fit sm:mx-auto">
+                        <Feature>常時SSL対応</Feature>
+                        <Feature>レスポンシブデザイン</Feature>
+                        <Feature>ブログ</Feature>
+                        <Feature>お問い合わせフォーム</Feature>
+                        <Feature>Googleビジネスプロフィール</Feature>
+                        <Feature>SEOサポート</Feature>
+                        <Feature className="font-bold">サーバー容量 : 400GB</Feature>
+                        <Feature className="font-bold">オリジナルデザインの実装</Feature>
+                    </div>
                 </div>
             </div>
             {/* <!-- plan - end --> */}
@@ -71,16 +75,18 @@ export const PricingTable = () => {
                     </div>
                 </div>
 
-                <div className="bg-gray-100 rounded-lg space-y-3 px-4 py-6 h-fit">
-                    <Feature>常時SSL対応</Feature>
-                    <Feature>レスポンシブデザイン</Feature>
-                    <Feature>ブログ</Feature>
-                    <Feature>お問い合わせフォーム</Feature>
-                    <Feature>Googleビジネスプロフィール</Feature>
-                    <Feature>SEOサポート</Feature>
-                    <Feature>オリジナルデザインの実装</Feature>
-                    <Feature className="font-bold">サーバー容量 : 無制限</Feature>
-                    <Feature className="font-bold">オリジナル機能の実装</Feature>
+                <div className="bg-gray-100 rounded-lg space-y-3 px-6 py-6">
+                    <div className="max-w-fit sm:mx-auto">
+                        <Feature>常時SSL対応</Feature>
+                        <Feature>レスポンシブデザイン</Feature>
+                        <Feature>ブログ</Feature>
+                        <Feature>お問い合わせフォーム</Feature>
+                        <Feature>Googleビジネスプロフィール</Feature>
+                        <Feature>SEOサポート</Feature>
+                        <Feature>オリジナルデザインの実装</Feature>
+                        <Feature className="font-bold">サーバー容量 : 無制限</Feature>
+                        <Feature className="font-bold">オリジナル機能の実装</Feature>
+                    </div>
                 </div>
             </div>
             {/* <!-- plan - end --> */}
