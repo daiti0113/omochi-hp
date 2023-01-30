@@ -24,11 +24,11 @@ export const Pricing = () => {
                         <div className="bg-gray-100 rounded-lg space-y-3 px-4 py-6">
                             <Feature>常時SSL対応</Feature>
                             <Feature>レスポンシブデザイン</Feature>
-                            <Feature>サーバー容量 : 5GB</Feature>
                             <Feature>ブログ</Feature>
                             <Feature>お問い合わせフォーム</Feature>
                             <Feature>Googleビジネスプロフィール</Feature>
                             <Feature>SEOサポート</Feature>
+                            <Feature>サーバー容量 : 5GB</Feature>
                         </div>
                     </div>
                     {/* <!-- plan - end --> */}
@@ -52,12 +52,11 @@ export const Pricing = () => {
                         <div className="bg-gray-100 rounded-lg space-y-3 px-4 py-6 h-fit">
                             <Feature>常時SSL対応</Feature>
                             <Feature>レスポンシブデザイン</Feature>
-                            <Feature>サーバー容量 : 5GB</Feature>
                             <Feature>ブログ</Feature>
                             <Feature>お問い合わせフォーム</Feature>
                             <Feature>Googleビジネスプロフィール</Feature>
                             <Feature>SEOサポート</Feature>
-                            <Feature>Googleビジネスプロフィール</Feature>
+                            <Feature className="font-bold">サーバー容量 : 400GB</Feature>
                             <Feature className="font-bold">オリジナルデザインの実装</Feature>
                         </div>
                     </div>
@@ -79,13 +78,12 @@ export const Pricing = () => {
                         <div className="bg-gray-100 rounded-lg space-y-3 px-4 py-6 h-fit">
                             <Feature>常時SSL対応</Feature>
                             <Feature>レスポンシブデザイン</Feature>
-                            <Feature>サーバー容量 : 5GB</Feature>
                             <Feature>ブログ</Feature>
                             <Feature>お問い合わせフォーム</Feature>
                             <Feature>Googleビジネスプロフィール</Feature>
                             <Feature>SEOサポート</Feature>
-                            <Feature>Googleビジネスプロフィール</Feature>
                             <Feature>オリジナルデザインの実装</Feature>
+                            <Feature className="font-bold">サーバー容量 : 無制限</Feature>
                             <Feature className="font-bold">オリジナル機能の実装</Feature>
                         </div>
                     </div>
