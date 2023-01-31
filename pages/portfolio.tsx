@@ -4,6 +4,7 @@ import {SectionContainer} from "../components/molecules/SectionContainer"
 import {PostList} from "../components/organisms/PostList"
 import {getAllPosts} from "../lib/api"
 import PostType from "../interfaces/post"
+import {Headline} from "../components/atoms/Headline"
 
 type Props = {
     posts: PostType[]
@@ -17,7 +18,10 @@ export default function Index({posts}: Props) {
                     <title>Portfolio</title>
                 </Head>
                 <SectionContainer>
-                    <PostList posts={posts} />
+                    <Headline>制作事例</Headline>
+                    <div className="mt-12">
+                        <PostList posts={posts} />
+                    </div>
                 </SectionContainer>
             </Layout>
         </>
