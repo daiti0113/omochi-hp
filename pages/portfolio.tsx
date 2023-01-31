@@ -1,18 +1,40 @@
 import Layout from "../components/layout"
 import Head from "next/head"
+import {SectionContainer} from "../components/molecules/SectionContainer"
+import {PostList} from "../components/organisms/PostList"
+import {getAllPosts} from "../lib/api"
+import PostType from "../interfaces/post"
 
-export default function Index() {
+type Props = {
+    posts: PostType[]
+}
+
+export default function Index({posts}: Props) {
     return (
         <>
             <Layout>
                 <Head>
                     <title>Portfolio</title>
                 </Head>
-                <h1 className="text-5xl md:text-8xl font-bold tracking-tighter leading-tight md:pr-8">
-                    Portfolio.
-                </h1>
-                <p>これはテストページです。</p>
+                <SectionContainer>
+                    <PostList posts={posts} />
+                </SectionContainer>
             </Layout>
         </>
     )
+}
+
+export const getStaticProps = async () => {
+    const posts = getAllPosts([
+        "title",
+        "date",
+        "slug",
+        "author",
+        "coverImage",
+        "excerpt"
+    ])
+
+    return {
+        props: {posts}
+    }
 }
