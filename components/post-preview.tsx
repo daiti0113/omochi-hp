@@ -9,16 +9,18 @@ type Props = {
   excerpt: string
   author: Author
   slug: string
+  className?: string
 }
 
 const PostPreview = ({
     title,
     coverImage,
     excerpt,
-    slug
+    slug,
+    className
 }: Props) => {
     return (
-        <div className="w-72 md:w-80 max-h-[30rem] md:max-h-[40rem] p-5 rounded-lg shadow-md bg-white hover:shadow-xl transition-shadow duration-300 ease-in-out">
+        <div className={`w-72 max-h-[30rem] md:max-h-[40rem] p-5 rounded-lg shadow-md bg-white hover:shadow-xl transition-shadow duration-300 ease-in-out ${className}`}>
             <div className="mb-5">
                 <CoverImage slug={slug} title={title} src={coverImage} />
             </div>

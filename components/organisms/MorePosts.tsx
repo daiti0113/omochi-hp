@@ -22,6 +22,7 @@ export const MorePosts = ({posts}: MorePostsProps) => {
                             author={post.author}
                             slug={post.slug}
                             excerpt={post.excerpt}
+                            className="md:w-80"
                         />
                     ))}
                 </div>

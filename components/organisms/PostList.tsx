@@ -8,7 +8,7 @@ type PostListProps = {
 
 export const PostList = ({posts}: PostListProps) => {
     return (
-        <div className="grid place-items-center grid-cols-2 min-[1380px]:grid-cols-3 gap-y-10">
+        <div className="grid place-items-center grid-cols-1 md:grid-cols-2 min-[1380px]:grid-cols-3 gap-10">
             {posts.map((post) => (
                 <PostPreview
                     key={post.slug}
@@ -18,6 +18,7 @@ export const PostList = ({posts}: PostListProps) => {
                     author={post.author}
                     slug={post.slug}
                     excerpt={post.excerpt}
+                    className="min-[460px]:w-full min-[460px]:max-w-sm  box-border"
                 />
             ))}
         </div>
