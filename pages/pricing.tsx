@@ -3,7 +3,9 @@ import Head from "next/head"
 import {Headline} from "../components/atoms/Headline"
 import {PricingTable} from "../components/organisms/PricingTable"
 import {SectionContainer} from "../components/molecules/SectionContainer"
+import {OptionTable} from "../components/organisms/OptionTable"
 
+// eslint-disable-next-line max-lines-per-function
 export default function Index() {
     return (
         <>
@@ -22,6 +24,17 @@ export default function Index() {
                         </div>
                     </div>
                     <PricingTable />
+                </SectionContainer>
+                <SectionContainer>
+                    <div className="bg-white py-6 sm:py-8 lg:py-12">
+                        <div className="max-w-screen-xl px-4 md:px-8 mx-auto">
+                            <Headline>オプション</Headline>
+                            <p className="max-w-screen-md text-gray-500 text-sm md:text-base mt-8 text-center mx-auto">
+                                上記のプランに加え、必要な要素をオプションとして追加することができます。
+                            </p>
+                        </div>
+                    </div>
+                    <OptionTable />
                 </SectionContainer>
             </Layout>
         </>
