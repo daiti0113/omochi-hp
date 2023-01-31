@@ -4,7 +4,7 @@ import {Headline} from "../components/atoms/Headline"
 import {PricingTable} from "../components/organisms/PricingTable"
 import {SectionContainer} from "../components/molecules/SectionContainer"
 import {OptionTable} from "../components/organisms/OptionTable"
-import { CONTACT_URL } from "../lib/constants"
+import {CONTACT_URL} from "../lib/constants"
 
 // eslint-disable-next-line max-lines-per-function
 export default function Index() {
