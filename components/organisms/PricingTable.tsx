@@ -49,14 +49,9 @@ export const PricingTable = () => {
 
                 <div className="bg-gray-100 rounded-lg space-y-3 px-6 py-6">
                     <div className="max-w-fit sm:mx-auto">
-                        <Feature>常時SSL対応</Feature>
-                        <Feature>レスポンシブデザイン</Feature>
-                        <Feature>ブログ</Feature>
-                        <Feature>お問い合わせフォーム</Feature>
-                        <Feature>Googleビジネスプロフィール</Feature>
-                        <Feature>SEOサポート</Feature>
-                        <Feature className="font-bold">サーバー容量 : 400GB</Feature>
-                        <Feature className="font-bold">オリジナルデザインの実装</Feature>
+                        <p className="text-gray-600 font-bold mb-4">STARTプランの機能に加え</p>
+                        <Feature>サーバー容量 : 400GB</Feature>
+                        <Feature>オリジナルデザインの実装</Feature>
                     </div>
                 </div>
             </div>
@@ -77,15 +72,9 @@ export const PricingTable = () => {
 
                 <div className="bg-gray-100 rounded-lg space-y-3 px-6 py-6">
                     <div className="max-w-fit sm:mx-auto">
-                        <Feature>常時SSL対応</Feature>
-                        <Feature>レスポンシブデザイン</Feature>
-                        <Feature>ブログ</Feature>
-                        <Feature>お問い合わせフォーム</Feature>
-                        <Feature>Googleビジネスプロフィール</Feature>
-                        <Feature>SEOサポート</Feature>
-                        <Feature>オリジナルデザインの実装</Feature>
-                        <Feature className="font-bold">サーバー容量 : 無制限</Feature>
-                        <Feature className="font-bold">オリジナル機能の実装</Feature>
+                        <p className="text-gray-600 font-bold mb-4">BUSINESSプランの機能に加え</p>
+                        <Feature>サーバー容量 : 無制限</Feature>
+                        <Feature>オリジナル機能の実装</Feature>
                     </div>
                 </div>
             </div>
