@@ -40,6 +40,7 @@ export default function Post({post}: Props) {
                                 coverImage={post.coverImage}
                                 date={post.date}
                                 author={post.author}
+                                link={post.link}
                             />
                         </SectionContainer>
                         <SectionContainer>
@@ -66,7 +67,8 @@ export async function getStaticProps({params}: Params) {
         "author",
         "content",
         "ogImage",
-        "coverImage"
+        "coverImage",
+        "link"
     ])
     const content = await markdownToHtml(post.content || "")
 

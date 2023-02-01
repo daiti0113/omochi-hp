@@ -11,6 +11,7 @@ type PostType = {
     url: string
   }
   content: string
+  link: string
 }
 
 export default PostType
