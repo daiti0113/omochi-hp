@@ -9,7 +9,6 @@ import Head from "next/head"
 import markdownToHtml from "../../lib/markdownToHtml"
 import type PostType from "../../interfaces/post"
 import {SectionContainer} from "../../components/molecules/SectionContainer"
-import { Headline } from "../../components/atoms/Headline"
 
 type Props = {
   post: PostType
