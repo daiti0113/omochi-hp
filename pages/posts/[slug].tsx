@@ -1,15 +1,15 @@
 import {useRouter} from "next/router"
 import ErrorPage from "next/error"
 import PostBody from "../../components/post-body"
-import Header from "../../components/header"
 import PostHeader from "../../components/post-header"
 import Layout from "../../components/layout"
 import {getPostBySlug, getAllPosts} from "../../lib/api"
 import PostTitle from "../../components/post-title"
 import Head from "next/head"
-import {SITE_NAME} from "../../lib/constants"
 import markdownToHtml from "../../lib/markdownToHtml"
 import type PostType from "../../interfaces/post"
+import {SectionContainer} from "../../components/molecules/SectionContainer"
+import { Headline } from "../../components/atoms/Headline"
 
 type Props = {
   post: PostType
@@ -24,7 +24,6 @@ export default function Post({post}: Props) {
     }
     return (
         <Layout>
-            <Header />
             {router.isFallback ? (
                 <PostTitle>Loading…</PostTitle>
             ) : (
@@ -32,17 +31,21 @@ export default function Post({post}: Props) {
                     <article className="mb-32">
                         <Head>
                             <title>
-                                {post.title} | Next.js Blog Example with {SITE_NAME}
+                                {post.title} の制作事例
                             </title>
                             <meta property="og:image" content={post.ogImage.url} />
                         </Head>
-                        <PostHeader
-                            title={post.title}
-                            coverImage={post.coverImage}
-                            date={post.date}
-                            author={post.author}
-                        />
-                        <PostBody content={post.content} />
+                        <SectionContainer>
+                            <PostHeader
+                                title={post.title}
+                                coverImage={post.coverImage}
+                                date={post.date}
+                                author={post.author}
+                            />
+                        </SectionContainer>
+                        <SectionContainer>
+                            <PostBody content={post.content} />
+                        </SectionContainer>
                     </article>
                 </>
             )}
