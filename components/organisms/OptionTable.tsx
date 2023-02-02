@@ -22,7 +22,7 @@ export const OptionTable = () => {
                         </div>
                         <h3 className="text-lg md:text-xl font-semibold text-center mb-2">ネットショップ</h3>
                         <p className="text-gray-500 text-center mb-2">自分だけのネットショップが簡単に作れます。</p>
-                        <p className="font-bold">¥1,000〜/月</p>
+                        <p className="font-bold">¥2,000〜/月</p>
                     </div>
 
                     <div className="flex flex-col items-center">
@@ -31,7 +31,7 @@ export const OptionTable = () => {
                         </div>
                         <h3 className="text-lg md:text-xl font-semibold text-center mb-2">SEOサポート</h3>
                         <p className="text-gray-500 text-center mb-2">Googleでの検索順位が上がるようサポートいたします。</p>
-                        <p className="font-bold">¥1,000〜/月</p>
+                        <p className="font-bold">¥3,000〜/月</p>
                     </div>
 
                     <div className="flex flex-col items-center">
@@ -40,7 +40,7 @@ export const OptionTable = () => {
                         </div>
                         <h3 className="text-lg md:text-xl font-semibold text-center mb-2">ページ追加</h3>
                         <p className="text-gray-500 text-center mb-2">キャンペーンやイベントの際に柔軟ににページを追加できます。</p>
-                        <p className="font-bold">¥1,000〜/月</p>
+                        <p className="font-bold">¥10,000 /ページ</p>
                     </div>
 
                     <div className="flex flex-col items-center">
@@ -49,7 +49,7 @@ export const OptionTable = () => {
                         </div>
                         <h3 className="text-lg md:text-xl font-semibold text-center mb-2">ロゴ制作</h3>
                         <p className="text-gray-500 text-center mb-2">ヒアリングを重ね、イメージにあったロゴを制作します。</p>
-                        <p className="font-bold">¥1,0000</p>
+                        <p className="font-bold">¥10,000 /件</p>
                     </div>
                 </div>
             </div>
