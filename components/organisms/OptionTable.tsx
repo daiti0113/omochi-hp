@@ -1,4 +1,5 @@
 import {FiFilePlus, FiShoppingCart, FiTrendingUp} from "react-icons/fi"
+import {MdOutlineDraw} from "react-icons/md"
 
 // eslint-disable-next-line max-lines-per-function
 export const OptionTable = () => {
@@ -40,6 +41,15 @@ export const OptionTable = () => {
                         <h3 className="text-lg md:text-xl font-semibold text-center mb-2">ページ追加</h3>
                         <p className="text-gray-500 text-center mb-2">キャンペーンやイベントの際に柔軟ににページを追加できます。</p>
                         <p className="font-bold">¥1,000〜/月</p>
+                    </div>
+
+                    <div className="flex flex-col items-center">
+                        <div className="w-12 md:w-14 h-12 md:h-14 flex justify-center items-center text-indigo-500 mb-2 sm:mb-4">
+                            <MdOutlineDraw size={50} />
+                        </div>
+                        <h3 className="text-lg md:text-xl font-semibold text-center mb-2">ロゴ制作</h3>
+                        <p className="text-gray-500 text-center mb-2">ヒアリングを重ね、イメージにあったロゴを制作します。</p>
+                        <p className="font-bold">¥1,0000</p>
                     </div>
                 </div>
             </div>
