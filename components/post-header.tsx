@@ -1,10 +1,9 @@
-import Avatar from "./avatar"
 import DateFormatter from "./date-formatter"
 import CoverImage from "./cover-image"
 import PostTitle from "./post-title"
 import type Author from "../interfaces/author"
 import Link from "next/link"
-import { FiExternalLink } from "react-icons/fi"
+import {FiExternalLink} from "react-icons/fi"
 
 type Props = {
   title: string
@@ -14,7 +13,7 @@ type Props = {
   link: string
 }
 
-const PostHeader = ({title, coverImage, date, author, link}: Props) => {
+const PostHeader = ({title, coverImage, date, link}: Props) => {
     return (
         <>
             <PostTitle>{title}</PostTitle>
