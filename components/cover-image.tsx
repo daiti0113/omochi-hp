@@ -14,7 +14,7 @@ const CoverImage = ({title, src, slug}: Props) => {
             loader={({src}) => src}
             src={src}
             alt={`Cover Image for ${title}`}
-            className={cn("w-full rounded-2xl h-60 object-cover object-top shadow-md bg-white hover:shadow-xl transition-shadow ease-in-out", {
+            className={cn("w-full rounded-2xl h-60 lg:h-80 object-cover object-top shadow-md bg-white hover:shadow-xl transition-shadow ease-in-out", {
                 "duration-200": slug
             })}
             width={1300}

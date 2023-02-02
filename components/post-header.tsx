@@ -4,6 +4,7 @@ import CoverImage from "./cover-image"
 import PostTitle from "./post-title"
 import type Author from "../interfaces/author"
 import Link from "next/link"
+import { FiExternalLink } from "react-icons/fi"
 
 type Props = {
   title: string
@@ -22,10 +23,13 @@ const PostHeader = ({title, coverImage, date, author, link}: Props) => {
                     <CoverImage title={title} src={coverImage} />
                 </Link>
             </div>
+            <div className="flex mt-4 mb-10">
+                <Link href={link} target="_blank" className="flex place-items-center justify-center mx-auto bg-gray-800 hover:bg-gray-700 active:bg-gray-600 focus-visible:ring ring-indigo-300 text-white text-sm md:text-base font-semibold text-center rounded-lg outline-none transition duration-100 px-8 py-3 md:w-full md:max-w-xs">
+                    サイトを見てみる
+                    <FiExternalLink className="ml-2" />
+                </Link>
+            </div>
             <div className="max-w-2xl mx-auto">
-                <div className="block md:hidden mb-6">
-                    <Avatar name={author.name} picture={author.picture} />
-                </div>
                 <div className="mb-6 text-lg">
                     <DateFormatter dateString={date} />
                 </div>
