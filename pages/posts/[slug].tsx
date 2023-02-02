@@ -9,6 +9,7 @@ import Head from "next/head"
 import markdownToHtml from "../../lib/markdownToHtml"
 import type PostType from "../../interfaces/post"
 import {SectionContainer} from "../../components/molecules/SectionContainer"
+import {SITE_NAME} from "../../lib/constants"
 
 type Props = {
   post: PostType
@@ -30,7 +31,7 @@ export default function Post({post}: Props) {
                     <article className="mb-32">
                         <Head>
                             <title>
-                                {post.title} の制作事例
+                                {SITE_NAME} | {post.title}の制作事例
                             </title>
                             <meta property="og:image" content={post.ogImage.url} />
                         </Head>

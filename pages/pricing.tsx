@@ -4,7 +4,7 @@ import {Headline} from "../components/atoms/Headline"
 import {PricingTable} from "../components/organisms/PricingTable"
 import {SectionContainer} from "../components/molecules/SectionContainer"
 import {OptionTable} from "../components/organisms/OptionTable"
-import {CONTACT_URL} from "../lib/constants"
+import {CONTACT_URL, SITE_NAME} from "../lib/constants"
 
 // eslint-disable-next-line max-lines-per-function
 export default function Index() {
@@ -12,7 +12,7 @@ export default function Index() {
         <>
             <Layout>
                 <Head>
-                    <title>Pricing</title>
+                    <title>{SITE_NAME} | 料金プラン</title>
                 </Head>
                 <SectionContainer>
                     <div className="bg-white py-6 sm:py-8 lg:py-12">

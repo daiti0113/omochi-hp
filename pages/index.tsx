@@ -17,7 +17,7 @@ export default function Index({allPosts}: Props) {
     return (
         <Layout>
             <Head>
-                <title>{SITE_NAME} | Home</title>
+                <title>{SITE_NAME} | ホーム</title>
             </Head>
             <Hero />
             <Message />

@@ -5,6 +5,7 @@ import {PostList} from "../components/organisms/PostList"
 import {getAllPosts} from "../lib/api"
 import PostType from "../interfaces/post"
 import {Headline} from "../components/atoms/Headline"
+import {SITE_NAME} from "../lib/constants"
 
 type Props = {
     posts: PostType[]
@@ -15,7 +16,7 @@ export default function Index({posts}: Props) {
         <>
             <Layout>
                 <Head>
-                    <title>Portfolio</title>
+                    <title>{SITE_NAME} | 制作事例</title>
                 </Head>
                 <SectionContainer>
                     <Headline>制作事例</Headline>
