@@ -27,8 +27,8 @@ export const Header = () => {
             {/* <!-- nav - end --> */}
 
             {/* <!-- button - start --> */}
-            <button type="button" onClick={() => setMenuVisible(!menuVisible)} className="inline-flex items-center md:hidden hover:bg-gray-300 focus-visible:ring ring-indigo-300 active:text-gray-700 text-sm md:text-base font-semibold rounded-lg gap-2 px-2.5 py-2">
-                <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" viewBox="0 0 20 20" fill="currentColor">
+            <button type="button" onClick={() => setMenuVisible(!menuVisible)} className="text-white inline-flex items-center md:hidden hover:bg-gray-300 focus-visible:ring ring-indigo-300 active:text-gray-700 text-sm md:text-base font-semibold rounded-lg gap-2 px-2.5 py-2">
+                <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" viewBox="0 0 20 20" fill="white">
                     <path fillRule="evenodd" d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h6a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z" clipRule="evenodd" />
                 </svg>
                 Menu

@@ -12,7 +12,6 @@ import {Square} from "../components/atoms/Square"
 type Props = {
   allPosts: Post[]
 }
-
 export default function Index({allPosts}: Props) {
     const morePosts = allPosts
     return (
@@ -20,7 +19,13 @@ export default function Index({allPosts}: Props) {
             <Head>
                 <title>{SITE_NAME} | ホーム</title>
             </Head>
-            <Square className="absolute top-[-40vw] md:top-[-30vw] lg:top-[-25vw] right-[-25px] sm:-right-24 md:right-6 xl:right-[-10rem] rotate-[42deg] rounded-[40px] sm:rounded-[100px] md:rounded-[120px] -z-10" />
+            <Square className={`
+                absolute
+                top-[-42vw] sm:top-[-46vw] md:top-[-30vw] lg:top-[-25vw]
+                right-[-25px] md:right-6 xl:right-[-10rem]
+                rotate-[30deg] md:rotate-[42deg]
+                rounded-[40px] min-[480px]:rounded-[100px] md:rounded-[120px]
+            `} />
             <Hero />
             <Message />
             <Stats />
