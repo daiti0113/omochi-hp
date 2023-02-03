@@ -7,6 +7,7 @@ import {Hero} from "../components/organisms/Hero"
 import {Message} from "../components/organisms/Message"
 import {Stats} from "../components/organisms/Stats"
 import {MorePosts} from "../components/organisms/MorePosts"
+import {Square} from "../components/atoms/Square"
 
 type Props = {
   allPosts: Post[]
@@ -19,6 +20,7 @@ export default function Index({allPosts}: Props) {
             <Head>
                 <title>{SITE_NAME} | ホーム</title>
             </Head>
+            <Square className="absolute top-[-40vw] md:top-[-30vw] lg:top-[-25vw] right-[-25px] sm:-right-24 md:right-6 xl:right-[-10rem] rotate-[42deg] rounded-[40px] sm:rounded-[100px] md:rounded-[120px] -z-10" />
             <Hero />
             <Message />
             <Stats />

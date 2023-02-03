@@ -19,10 +19,10 @@ export const Header = () => {
 
             {/* <!-- nav - start --> */}
             <nav className="hidden md:flex gap-12">
-                <Link href="/" className="hover:text-gray-500 transition duration-100">HOME</Link>
-                <Link href="/portfolio" className="hover:text-gray-500 transition duration-100">PORTFOLIO</Link>
-                <Link href="/pricing" className="hover:text-gray-500 transition duration-100">PRICING</Link>
-                <Link href={CONTACT_URL} target="_blank" className="hover:text-gray-500 transition duration-100">CONTACT US</Link>
+                <Link href="/" className="text-white hover:text-gray-500 transition duration-100">HOME</Link>
+                <Link href="/portfolio" className="text-white hover:text-gray-500 transition duration-100">PORTFOLIO</Link>
+                <Link href="/pricing" className="text-white hover:text-gray-500 transition duration-100">PRICING</Link>
+                <Link href={CONTACT_URL} target="_blank" className="text-white hover:text-gray-500 transition duration-100">CONTACT US</Link>
             </nav>
             {/* <!-- nav - end --> */}
 
