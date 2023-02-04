@@ -11,7 +11,7 @@ const Layout = ({children}: Props) => {
     return (
         <>
             <Meta />
-            <div className="min-h-screen">
+            <div className="min-h-screen relative overflow-hidden">
                 <div>
                     <Header />
                     <main>{children}</main>
