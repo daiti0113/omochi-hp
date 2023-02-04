@@ -21,7 +21,7 @@ export default function Index({allPosts}: Props) {
             </Head>
             <Square className={`
                 absolute
-                top-[-42vw] sm:top-[-46vw] md:top-[-30vw] lg:top-[-25vw]
+                top-[-46vw] sm:top-[-46vw] md:top-[-30vw] lg:top-[-25vw]
                 right-[-25px] md:right-6 lg:right-0 xl:right-[-10rem]
                 rotate-[30deg] md:rotate-[42deg]
                 rounded-[40px] min-[480px]:rounded-[100px] md:rounded-[120px]
