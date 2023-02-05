@@ -3,7 +3,7 @@ import {CONTACT_URL} from "../../lib/constants"
 
 export const Footer = () => {
     return (
-        <footer className="bg-black mt-8 md:mt-32 px-10 md:px-20 lg:px-44 py-12">
+        <footer className="bg-black mt-8 md:mt-32 px-8 md:px-20 lg:px-44 py-12">
             <div className="sm:flex">
                 <div className="flex-none mr-10 sm:w-60">
                     <Link href="/" className="text-white hover:text-gray-300 text-2xl sm:text-3xl lg:text-[2.5rem] lg:text-left h-fit w-fit">
