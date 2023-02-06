@@ -1,12 +1,13 @@
-import {parseISO, format} from "date-fns"
+import {format} from "date-fns"
+import {zonedTimeToUtc} from "date-fns-tz"
 
 type Props = {
   dateString: string
 }
 
 const DateFormatter = ({dateString}: Props) => {
-    const date = parseISO(dateString)
-    return <time dateTime={dateString}>{format(date, "LLLL	d, yyyy")}</time>
+    const date = zonedTimeToUtc(dateString, "Asia/Tokyo")
+    return <time dateTime={dateString}>{format(date, "yyyy-MM-dd")}</time>
 }
 
 export default DateFormatter

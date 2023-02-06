@@ -28,6 +28,7 @@
     "@typescript-eslint/eslint-plugin": "^5.49.0",
     "@typescript-eslint/parser": "^5.49.0",
     "autoprefixer": "^10.4.7",
+    "date-fns-tz": "^2.0.0",
     "eslint": "^8.33.0",
     "eslint-plugin-react": "^7.32.2",
     "postcss": "^8.4.14",

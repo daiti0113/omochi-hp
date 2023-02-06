@@ -2,7 +2,7 @@
 title: 'カーフィルム施工　ファニー 様'
 excerpt: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Praesent elementum facilisis leo vel fringilla est ullamcorper eget. At imperdiet dui accumsan sit amet nulla facilities morbi tempus.'
 coverImage: '/assets/blog/funny-okinawa/cover.png'
-date: '2020-03-16T05:35:07.322Z'
+date: '2021-05-19T21:00:00'
 author:
   name: JJ Kasper
   picture: '/assets/blog/authors/jj.jpeg'
