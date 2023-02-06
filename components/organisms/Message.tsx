@@ -6,11 +6,19 @@ export const Message = () => {
         <SectionContainer>
             <div className="mb-10 md:mb-16">
                 <Headline>
-                    <span className="inline-block leading-normal">誰でも気軽に</span>
-                    <span className="inline-block leading-normal">ホームページがもてる時代に</span>
+                    <span className="inline-block leading-normal">わかりやすく、負担にならない、</span>
+                    <span className="inline-block leading-normal">効果のあるホームページを制作します</span>
                 </Headline>
                 <p className="max-w-screen-md text-gray-500 text-sm md:text-base mt-8 text-center mx-auto">
-                    「いろいろな人に知ってもらうため」「信頼を得るため」「情報を発信するため」、ホームページを作る理由は様々です。だれもが何にだって挑戦できる時代だからこそ、一人ひとりの思いを届けるための場所を形にします。
+                    <span className="inline-block leading-relaxed">ホームページ制作はわからないことが多く、</span>
+                    <span className="inline-block leading-relaxed">何かと不安になってしまいます。</span>
+                    <span className="inline-block leading-relaxed">必要以上のコスト、効果に見合わないコストを</span>
+                    <span className="inline-block leading-relaxed">支払っていることも少なくありません。</span>
+                    <span className="inline-block leading-relaxed">Omochi では、</span>
+                    <span className="inline-block leading-relaxed">ホームページを作るために必要なコストを</span>
+                    <span className="inline-block leading-relaxed">なるべくわかりやすくご説明し、</span>
+                    <span className="inline-block leading-relaxed">お客様の目的を達成するために</span>
+                    <span className="inline-block leading-relaxed">必要な費用のみをお支払いいただきます。</span>
                 </p>
             </div>
         </SectionContainer>
