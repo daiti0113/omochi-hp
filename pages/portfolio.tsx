@@ -20,7 +20,7 @@ export default function Index({posts}: Props) {
                 </Head>
                 <SectionContainer>
                     <Headline>制作事例</Headline>
-                    <div className="mt-12">
+                    <div className="mt-12 pb-12">
                         <PostList posts={posts} />
                     </div>
                 </SectionContainer>
