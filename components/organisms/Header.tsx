@@ -22,10 +22,10 @@ export const Header = () => {
 
             {/* <!-- nav - start --> */}
             <nav className="hidden md:flex gap-12">
-                <Link href="/" className={`${isHome ? "text-white" : "text-black"} hover:text-gray-500 transition duration-100`}>HOME</Link>
-                <Link href="/portfolio" className={`${isHome ? "text-white" : "text-black"} hover:text-gray-500 transition duration-100`}>PORTFOLIO</Link>
-                <Link href="/pricing" className={`${isHome ? "text-white" : "text-black"} hover:text-gray-500 transition duration-100`}>PRICING</Link>
-                <Link href={CONTACT_URL} target="_blank" className={`${isHome ? "text-white" : "text-black"} hover:text-gray-500 transition duration-100`}>CONTACT US</Link>
+                <Link href="/" className={`${isHome ? "text-white" : "text-black"} hover:text-gray-500 transition duration-100`}>ホーム</Link>
+                <Link href="/portfolio" className={`${isHome ? "text-white" : "text-black"} hover:text-gray-500 transition duration-100`}>制作事例</Link>
+                <Link href="/pricing" className={`${isHome ? "text-white" : "text-black"} hover:text-gray-500 transition duration-100`}>料金プラン</Link>
+                <Link href={CONTACT_URL} target="_blank" className={`${isHome ? "text-white" : "text-black"} hover:text-gray-500 transition duration-100`}>お問い合わせ</Link>
             </nav>
             {/* <!-- nav - end --> */}
 

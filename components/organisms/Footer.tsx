@@ -11,10 +11,10 @@ export const Footer = () => {
                     </Link>
                 </div>
                 <div className="flex-1 flex flex-col gap-y-2 mt-8 sm:mt-0">
-                    <Link href="/" className="text-white hover:text-gray-500 text-sm transition duration-100 w-fit">HOME</Link>
-                    <Link href="/portfolio" className="text-white hover:text-gray-500 text-sm transition duration-100 w-fit">PORTFOLIO</Link>
-                    <Link href="/pricing" className="text-white hover:text-gray-500 text-sm transition duration-100 w-fit">PRICING</Link>
-                    <Link href={CONTACT_URL} target="_blank" className="text-white hover:text-gray-500 text-sm transition duration-100 w-fit">CONTACT US</Link>
+                    <Link href="/" className="text-white hover:text-gray-500 text-sm transition duration-100 w-fit">ホーム</Link>
+                    <Link href="/portfolio" className="text-white hover:text-gray-500 text-sm transition duration-100 w-fit">制作事例</Link>
+                    <Link href="/pricing" className="text-white hover:text-gray-500 text-sm transition duration-100 w-fit">料金プラン</Link>
+                    <Link href={CONTACT_URL} target="_blank" className="text-white hover:text-gray-500 text-sm transition duration-100 w-fit">お問い合わせ</Link>
                 </div>
             </div>
         </footer>
