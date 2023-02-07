@@ -16,11 +16,13 @@ export default function Index() {
                 </Head>
                 <SectionContainer>
                     <div className="bg-white py-6 sm:py-8 lg:py-12">
-                        <div className="max-w-screen-xl px-4 md:px-8 mx-auto">
+                        <div className="max-w-screen-xl mx-auto">
                             <Headline>料金プラン</Headline>
-                            <p className="max-w-screen-md text-gray-500 text-sm md:text-base mt-8 text-center mx-auto break-keep">
-                                <span>お客様の現状をヒアリングし、要望にあったプランを提案します。</span>
-                                <span>ぜひまずはお気軽にお問い合わせください！</span>
+                            <p className="max-w-screen-md text-gray-500 text-sm md:text-base mt-4 text-center mx-auto">
+                                <span className="inline-block leading-relaxed">お客様の現状をヒアリングし、</span>
+                                <span className="inline-block leading-relaxed">要望にあったプランを提案します。</span>
+                                <span className="inline-block leading-relaxed">ぜひまずはお気軽に</span>
+                                <span className="inline-block leading-relaxed">お問い合わせください！</span>
                             </p>
                         </div>
                     </div>
