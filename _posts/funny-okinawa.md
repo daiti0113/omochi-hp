@@ -1,20 +1,26 @@
 ---
 title: 'カーフィルム施工　ファニー 様'
-excerpt: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Praesent elementum facilisis leo vel fringilla est ullamcorper eget. At imperdiet dui accumsan sit amet nulla facilities morbi tempus.'
+excerpt: '全然更新していないほったらかしのブログしか持っておらず、それ以外にはナビ沖などに登録しているくらいでした。
+Omochiさんにホームページを作ってもらうにあたって、前に書いていたブログの内容も新しいサイトに移してもらいました。'
 coverImage: '/assets/blog/funny-okinawa/cover.png'
 date: '2021-05-19T21:00:00'
 author:
-  name: JJ Kasper
-  picture: '/assets/blog/authors/jj.jpeg'
+  name: 砂川 大地
+  picture: ''
 ogImage:
   url: '/assets/blog/funny-okinawa/cover.png'
 link: 'https://www.funny-okinawa.com/'
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Praesent elementum facilisis leo vel fringilla est ullamcorper eget. At imperdiet dui accumsan sit amet nulla facilities morbi tempus. Praesent elementum facilisis leo vel fringilla. Congue mauris rhoncus aenean vel. Egestas sed tempus urna et pharetra pharetra massa massa ultricies.
+## お客さんが増えたので、本業に専念するようになりました
 
-Venenatis cras sed felis eget velit. Consectetur libero id faucibus nisl tincidunt. Gravida in fermentum et sollicitudin ac orci phasellus egestas tellus. Volutpat consequat mauris nunc congue nisi vitae. Id aliquet risus feugiat in ante metus dictum at tempor. Sed blandit libero volutpat sed cras. Sed odio morbi quis commodo odio aenean sed adipiscing. Velit euismod in pellentesque massa placerat. Mi bibendum neque egestas congue quisque egestas diam in arcu. Nisi lacus sed viverra tellus in. Nibh cras pulvinar mattis nunc sed. Luctus accumsan tortor posuere ac ut consequat semper viverra. Fringilla ut morbi tincidunt augue interdum velit euismod.
+![施工の様子1](/assets/blog/funny-okinawa/IMG_4445.png)
 
-## Lorem Ipsum
+全然更新していないほったらかしのブログしか持っておらず、それ以外にはナビ沖などに登録しているくらいでした。  
+Omochiさんにホームページを作ってもらうにあたって、前に書いていたブログの内容も新しいサイトに移してもらいました。
 
-Tristique senectus et netus et malesuada fames ac turpis. Ridiculous mus mauris vitae ultricies leo integer malesuada nunc vel. In mollis nunc sed id semper. Egestas tellus rutrum tellus pellentesque. Phasellus vestibulum lorem sed risus ultricies tristique nulla. Quis blandit turpis cursus in hac habitasse platea dictumst quisque. Eros donec ac odio tempor orci dapibus ultrices. Aliquam sem et tortor consequat id porta nibh. Adipiscing elit duis tristique sollicitudin nibh sit amet commodo nulla. Diam vulputate ut pharetra sit amet. Ut tellus elementum sagittis vitae et leo. Arcu non odio euismod lacinia at quis risus sed vulputate.
+![施工の様子2](/assets/blog/funny-okinawa/IMG_4433.png)
+
+今では検索でも上位に表示されるようになったり、Googleマップにも表示されるようになり、お問い合わせをしてくれるお客さんが増えています。  
+カーフィルム施工は季節によってお客さんの数に差が出る傾向にあり、特にお問い合わせの数が減る冬場は副業として別の事業も行っていました。
+しかし、今ではお客さんが増えたので本業に専念するようになり大満足です。
