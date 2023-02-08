@@ -42,7 +42,8 @@ const Meta = () => {
             <meta property="og:type" content="article" />
             <meta property="og:url" content="https://omochi-hp.pages.dev/" />
             <meta charSet="utf-8" />
-            <meta httpEquiv="Content-Type" content="text/html; charset=UTF-8"></meta>
+            <meta httpEquiv="Content-Type" content="text/html; charset=UTF-8" />
+            <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         </Head>
     )
 }
