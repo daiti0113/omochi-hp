@@ -1,5 +1,5 @@
 import Head from "next/head"
-import {SITE_NAME, HOME_OG_IMAGE_URL} from "../lib/constants"
+import {HOME_OG_IMAGE_URL} from "../lib/constants"
 
 // eslint-disable-next-line max-lines-per-function
 const Meta = () => {
@@ -35,7 +35,7 @@ const Meta = () => {
             <link rel="alternate" type="application/rss+xml" href="/feed.xml" />
             <meta
                 name="description"
-                content={`A statically generated blog example using Next.js and ${SITE_NAME}.`}
+                content="Omochiは、沖縄を拠点にホームページやLPの制作・運用代行を行っています。レスポンシブ対応やブログ機能、常時SSLに加え、SEOレポートやGoogleビジネスプロフィールの登録など、オールインワンなご支援をわかりやすい格安料金プランで提供します。"
             />
             <meta property="og:image" content={HOME_OG_IMAGE_URL} />
         </Head>
