@@ -34,6 +34,10 @@ export const Skills = () => {
                     <Link href="https://www.figma.com/ja/" className="h-16 sm:h-32 flex justify-center items-center bg-gray-100 text-gray-400 rounded-lg p-3 md:p-8">
                         <Logo src="/assets/skills/jimdo_logo.png" alt="ジンドゥーロゴ" />
                     </Link>
+
+                    <Link href="https://www.figma.com/ja/" className="h-16 sm:h-32 flex justify-center items-center bg-gray-100 text-gray-400 rounded-lg p-3 md:p-8">
+                        <Logo src="/assets/skills/aws_logo.png" alt="AWSロゴ" />
+                    </Link>
                 </div>
             </div>
         </div>
