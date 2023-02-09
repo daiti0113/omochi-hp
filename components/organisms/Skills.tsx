@@ -11,31 +11,31 @@ export const Skills = () => {
                         <Logo src="/assets/skills/figma_logo.svg" alt="Figmaロゴ" />
                     </Link>
       
-                    <Link href="https://www.figma.com/ja/" className="h-16 sm:h-32 flex justify-center items-center bg-gray-100 text-gray-400 rounded-lg p-3 md:p-8">
+                    <Link href="https://www.typescriptlang.org/" className="h-16 sm:h-32 flex justify-center items-center bg-gray-100 text-gray-400 rounded-lg p-3 md:p-8">
                         <Logo src="/assets/skills/typescript_logo.png" alt="TypeScriptロゴ" />
                     </Link>
 
-                    <Link href="https://www.figma.com/ja/" className="h-16 sm:h-32 flex justify-center items-center bg-gray-100 text-gray-400 rounded-lg p-3 md:p-8">
+                    <Link href="https://ja.reactjs.org/" className="h-16 sm:h-32 flex justify-center items-center bg-gray-100 text-gray-400 rounded-lg p-3 md:p-8">
                         <Logo src="/assets/skills/react_logo.png" alt="Reactロゴ" />
                     </Link>
 
-                    <Link href="https://www.figma.com/ja/" className="h-16 sm:h-32 flex justify-center items-center bg-gray-100 text-gray-400 rounded-lg p-3 md:p-8">
+                    <Link href="https://nextjs.org/" className="h-16 sm:h-32 flex justify-center items-center bg-gray-100 text-gray-400 rounded-lg p-3 md:p-8">
                         <Logo src="/assets/skills/nextjs_logo.svg" alt="Next.jsロゴ" />
                     </Link>
 
-                    <Link href="https://www.figma.com/ja/" className="h-16 sm:h-32 flex justify-center items-center bg-gray-100 text-gray-400 rounded-lg p-3 md:p-8">
+                    <Link href="https://ja.wordpress.org/" className="h-16 sm:h-32 flex justify-center items-center bg-gray-100 text-gray-400 rounded-lg p-3 md:p-8">
                         <Logo src="/assets/skills/wordpress_logo.png" alt="WordPressロゴ" />
                     </Link>
 
-                    <Link href="https://www.figma.com/ja/" className="h-16 sm:h-32 flex justify-center items-center bg-gray-100 text-gray-400 rounded-lg p-3 md:p-8">
+                    <Link href="https://ja.wix.com/" className="h-16 sm:h-32 flex justify-center items-center bg-gray-100 text-gray-400 rounded-lg p-3 md:p-8">
                         <Logo src="/assets/skills/wix_logo.svg" alt="Wixロゴ" />
                     </Link>
 
-                    <Link href="https://www.figma.com/ja/" className="h-16 sm:h-32 flex justify-center items-center bg-gray-100 text-gray-400 rounded-lg p-3 md:p-8">
+                    <Link href="https://www.jimdo.com/jp/" className="h-16 sm:h-32 flex justify-center items-center bg-gray-100 text-gray-400 rounded-lg p-3 md:p-8">
                         <Logo src="/assets/skills/jimdo_logo.png" alt="ジンドゥーロゴ" />
                     </Link>
 
-                    <Link href="https://www.figma.com/ja/" className="h-16 sm:h-32 flex justify-center items-center bg-gray-100 text-gray-400 rounded-lg p-3 md:p-8">
+                    <Link href="https://aws.amazon.com/jp/" className="h-16 sm:h-32 flex justify-center items-center bg-gray-100 text-gray-400 rounded-lg p-3 md:p-8">
                         <Logo src="/assets/skills/aws_logo.png" alt="AWSロゴ" />
                     </Link>
                 </div>
