@@ -10,7 +10,7 @@ export const Header = () => {
     const isHome = router.pathname === "/"
 
     return (
-        <header className="flex justify-between items-center py-4 md:py-8 px-8 md:px-20 lg:px-44">
+        <header className="flex justify-between py-4 md:py-8 px-8 md:px-20 lg:px-44">
             {/* <!-- logo - start --> */}
             <a href="/" className="inline-flex items-center text-black-800 text-2xl md:text-3xl font-bold gap-2.5" aria-label="logo">
                 <svg width="95" height="94" viewBox="0 0 95 94" className="w-6 h-auto text-indigo-500" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
@@ -21,11 +21,12 @@ export const Header = () => {
             {/* <!-- logo - end --> */}
 
             {/* <!-- nav - start --> */}
-            <nav className="hidden md:flex gap-12">
-                <Link href="/" className={`${isHome ? "text-white" : "text-black"} hover:text-gray-500 transition duration-100`}>ホーム</Link>
-                <Link href="/portfolio" className={`${isHome ? "text-white" : "text-black"} hover:text-gray-500 transition duration-100`}>制作事例</Link>
-                <Link href="/pricing" className={`${isHome ? "text-white" : "text-black"} hover:text-gray-500 transition duration-100`}>料金プラン</Link>
-                <Link href={CONTACT_URL} target="_blank" className={`${isHome ? "text-white" : "text-black"} hover:text-gray-500 transition duration-100`}>お問い合わせ</Link>
+            <nav className="hidden md:flex gap-8">
+                <Link href="/" className={`${isHome ? "text-white" : "text-black"} text-sm hover:text-gray-500 transition duration-100`}>ホーム</Link>
+                <Link href="/about" className={`${isHome ? "text-white" : "text-black"} text-sm hover:text-gray-500 transition duration-100`}>ご挨拶</Link>
+                <Link href="/portfolio" className={`${isHome ? "text-white" : "text-black"} text-sm hover:text-gray-500 transition duration-100`}>制作事例</Link>
+                <Link href="/pricing" className={`${isHome ? "text-white" : "text-black"} text-sm hover:text-gray-500 transition duration-100`}>料金プラン</Link>
+                <Link href={CONTACT_URL} target="_blank" className={`${isHome ? "text-white" : "text-black"} text-sm hover:text-gray-500 transition duration-100`}>お問い合わせ</Link>
             </nav>
             {/* <!-- nav - end --> */}
 
@@ -43,16 +44,19 @@ export const Header = () => {
                 <div id="dropdownNavbar" className="absolute top-20 right-10 z-10 font-normal bg-white divide-y divide-gray-100 rounded-lg shadow w-44 dark:bg-gray-700 dark:divide-gray-600">
                     <ul className="py-2 text-sm text-gray-700 dark:text-gray-400" aria-labelledby="dropdownLargeButton">
                         <li>
-                            <Link href="/" className={`block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:${isHome ? "text-white" : "text-black"}`}>HOME</Link>
+                            <Link href="/" className={`block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:${isHome ? "text-white" : "text-black"}`}>ホーム</Link>
                         </li>
                         <li>
-                            <Link href="/portfolio" className={`block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:${isHome ? "text-white" : "text-black"}`}>PORTFOLIO</Link>
+                            <Link href="/about" className={`block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:${isHome ? "text-white" : "text-black"}`}>ご挨拶</Link>
                         </li>
                         <li>
-                            <Link href="/pricing" className={`block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:${isHome ? "text-white" : "text-black"}`}>PRICING</Link>
+                            <Link href="/portfolio" className={`block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:${isHome ? "text-white" : "text-black"}`}>制作事例</Link>
                         </li>
                         <li>
-                            <Link href={CONTACT_URL} target="_blank" className={`block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:${isHome ? "text-white" : "text-black"}`}>CONTACT US</Link>
+                            <Link href="/pricing" className={`block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:${isHome ? "text-white" : "text-black"}`}>料金プラン</Link>
+                        </li>
+                        <li>
+                            <Link href={CONTACT_URL} target="_blank" className={`block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:${isHome ? "text-white" : "text-black"}`}>お問い合わせ</Link>
                         </li>
                     </ul>
                 </div>
