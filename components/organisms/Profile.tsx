@@ -27,7 +27,7 @@ export const Profile = () => {
                         </div>
                     </div>
                     <p className="font-normal text-sm md:text-base leading-6 text-gray-600 pt-10">
-                        <span className="inline-block leading-relaxed">沖縄高専卒業後、就職のため上京し、株式会社KDDIウェブコミュニケーションズに入社。レンタルサーバー事業のフロントエンド開発を担当する。</span>
+                        <span className="inline-block leading-relaxed">沖縄高専卒業後に上京し、株式会社KDDIウェブコミュニケーションズに入社。レンタルサーバー事業のフロントエンド開発を担当する。</span>
                         <span className="inline-block leading-relaxed">現在はコロナ感染拡大によるリモートワークの推奨により、沖縄にUターンしフルリモート勤務中。</span>
                         <span className="inline-block leading-relaxed">飲食業や美容業を営む方と話をするなかで、「ITを活用すればもっと無駄な時間を減らし、顧客の増加も見込めるはずだ」と感じたことをきっかけに、沖縄の中小企業や個人事業主のビジネスをサポートするために Omochi を開業。</span>
                         <span className="inline-block leading-relaxed">趣味はカメラや映画鑑賞、音楽鑑賞、ドラム、ギター、DIYなど。</span>
