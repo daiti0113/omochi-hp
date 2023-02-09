@@ -1,8 +1,10 @@
 import Layout from "../components/layout"
 import Head from "next/head"
 import {SectionContainer} from "../components/molecules/SectionContainer"
+import {Headline} from "../components/atoms/Headline"
 import {SITE_NAME} from "../lib/constants"
 import {Profile} from "../components/organisms/Profile"
+import {Skills} from "../components/organisms/Skills"
 
 export default function Index() {
     return (
@@ -13,6 +15,10 @@ export default function Index() {
                 </Head>
                 <SectionContainer>
                     <Profile />
+                </SectionContainer>
+                <SectionContainer>
+                    <Headline>スキル</Headline>
+                    <Skills />
                 </SectionContainer>
             </Layout>
         </>
