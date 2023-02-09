@@ -11,7 +11,7 @@ export default function Index() {
         <>
             <Layout>
                 <Head>
-                    <title>{SITE_NAME} | 制作事例</title>
+                    <title>{SITE_NAME} | ご挨拶</title>
                 </Head>
                 <SectionContainer>
                     <Profile />
