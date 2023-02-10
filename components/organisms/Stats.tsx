@@ -25,7 +25,7 @@ export const Stats = () => {
                                 <span className="inline-block leading-relaxed">（プログラム）はお客様に納品するため、</span>
                                 <span className="inline-block leading-relaxed">解約後もご自身で運用されたり、</span>
                                 <span className="inline-block leading-relaxed">他社様に運用を引き継ぐということも可能です。</span>
-                                <span className="inline-block leading-relaxed">また、SEOサポートや更新もお任せ下さい。</span>
+                                <span className="inline-block leading-relaxed">更新も自由に行えるほか、SEOレポートの作成も行っています。</span>
                             </p>
                             <div className="grid grid-cols-1 sm:grid-cols-3 px-10 sm:px-0 gap-3">
                                 {/* <!-- feature - start --> */}
@@ -38,7 +38,7 @@ export const Stats = () => {
                                 {/* <!-- feature - start --> */}
                                 <div className="flex flex-col items-center md:items-start">
                                     <span className="text-gray-600 text-4xl lg:text-6xl font-semibold mb-2">¥0</span>
-                                    <p className="text-gray-600 text-sm font-semibold mb-2">SEOサポート*</p>
+                                    <p className="text-gray-600 text-sm font-semibold mb-2">SEOレポート作成*</p>
                                 </div>
                                 {/* <!-- feature - end --> */}
 
@@ -54,7 +54,7 @@ export const Stats = () => {
                     </div>
                     <div className="mt-10 mb-6 md:mb-8">
                         <p className="text-gray-400 text-xs text-center md:text-start">
-                            *SEOサポート... Google Analytics や Google Search Console の情報をレポートし、Google での検索向上をお手伝いするサービスです。
+                            *SEOレポート作成... Google Analytics や Google Search Console の情報をレポートし、Google での検索向上をお手伝いするサービスです。
                         </p>
                         <p className="text-gray-400 text-xs text-center md:text-start mt-4">
                             *サイト更新... 文言修正や画像の差し替え、ブログ記事の追加などをいつでも無料で行えます。新規画面の追加は一部有料となってしまう場合があるのでお問い合わせください。

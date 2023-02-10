@@ -24,7 +24,7 @@ export const PricingTable = () => {
                         <Feature>ブログ</Feature>
                         <Feature>お問い合わせフォーム</Feature>
                         <Feature>Googleビジネスプロフィール</Feature>
-                        <Feature>SEOサポート</Feature>
+                        <Feature>SEOレポート作成</Feature>
                         <Feature>サーバー容量 : 5GB</Feature>
                     </div>
                 </div>
