@@ -17,7 +17,7 @@ export default function Index({allPosts}: Props) {
     return (
         <Layout>
             <Head>
-                <title>{SITE_NAME} | ホーム</title>
+                <title>ホームページ制作・作成 沖縄 | {SITE_NAME}</title>
             </Head>
             <Square className={`
                 absolute
