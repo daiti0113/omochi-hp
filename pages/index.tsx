@@ -8,6 +8,7 @@ import {Message} from "../components/organisms/Message"
 import {Stats} from "../components/organisms/Stats"
 import {MorePosts} from "../components/organisms/MorePosts"
 import {Square} from "../components/atoms/Square"
+import {Steps} from "../components/organisms/Steps"
 
 type Props = {
   allPosts: Post[]
@@ -30,6 +31,7 @@ export default function Index({allPosts}: Props) {
             <Hero />
             <Message />
             <Stats />
+            <Steps />
             {morePosts.length > 0 && <MorePosts posts={morePosts} />}
         </Layout>
     )
