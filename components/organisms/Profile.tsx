@@ -11,7 +11,7 @@ export const Profile = () => {
                 <div className="w-full lg:w-1/2 flex flex-col">
                     <div className="">
                         <Headline className="leading-9 text-gray-800 lg:text-left">砂川 大地</Headline>
-                        <p className="font-normal text-sm mt-2 leading-6 text-gray-600 text-center lg:text-left">代表 / フロントエンドエンジニア</p>
+                        <p className="font-normal text-sm mt-2 leading-6 text-gray-600 text-center lg:text-left">フロントエンドエンジニア</p>
                         <div className="flex justify-center lg:justify-start mt-4">
                             <div className="flex gap-4">
                                 <Link href="https://twitter.com/sunatti0113" target="_blank" className="text-gray-400 hover:text-gray-500 active:text-gray-600 transition duration-100">
