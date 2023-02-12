@@ -9,7 +9,7 @@ export const Profile = () => {
         <div className="2xl:container 2xl:mx-auto md:px-6">
             <div className="flex flex-col lg:flex-row justify-between gap-8">
                 <div className="w-full lg:w-1/2 flex flex-col">
-                    <div className="">
+                    <div>
                         <Headline className="leading-9 text-gray-800 lg:text-left">砂川 大地</Headline>
                         <p className="font-normal text-sm mt-2 leading-6 text-gray-600 text-center lg:text-left">フロントエンドエンジニア</p>
                         <div className="flex justify-center lg:justify-start mt-4">

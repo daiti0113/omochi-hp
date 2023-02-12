@@ -3,7 +3,7 @@ import {SectionContainer} from "../molecules/SectionContainer"
 
 export const Hero = () => {
     return (
-        <SectionContainer className="opacity-0 show-on-scroll">
+        <SectionContainer>
             <div className="md:w-7/12 flex flex-col justify-center items-center md:items-start sm:text-center md:text-left lg:py-12 xl:py-24">
                 <h1 className="text-center md:text-start text-black text-2xl sm:text-3xl md:text-3xl xl:text-5xl font-bold mb-8 md:mb-12">
                     <span className="inline-block leading-normal">沖縄のホームページなら</span>
