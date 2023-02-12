@@ -5,7 +5,7 @@ import {SectionContainer} from "../molecules/SectionContainer"
 export const Stats = () => {
     return (
         <SectionContainer>
-            <div className="bg-white py-6 sm:py-8 lg:py-12">
+            <div className="bg-white pt-6 sm:pt-8 lg:pt-12">
                 <div className="max-w-screen-xl mx-auto">
                     <div className="grid md:grid-cols-2 gap-8 lg:gap-12">
                         <div>
