@@ -6,7 +6,7 @@ import {SectionContainer} from "../molecules/SectionContainer"
 // eslint-disable-next-line max-lines-per-function
 export const Steps = () => {
     return (
-        <SectionContainer>
+        <SectionContainer className="opacity-0 show-on-scroll">
             <Headline>制作の流れ</Headline>
             <div className="mt-12 md:mt-20">
                 <div className="flex flex-row">

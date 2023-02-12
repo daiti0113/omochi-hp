@@ -9,12 +9,15 @@ import {Stats} from "../components/organisms/Stats"
 import {MorePosts} from "../components/organisms/MorePosts"
 import {Square} from "../components/atoms/Square"
 import {Steps} from "../components/organisms/Steps"
+import {useScrollFadeIn} from "../lib/useScrollFadeIn"
 
 type Props = {
   allPosts: Post[]
 }
 export default function Index({allPosts}: Props) {
     const morePosts = allPosts
+    useScrollFadeIn()
+
     return (
         <Layout>
             <Head>
