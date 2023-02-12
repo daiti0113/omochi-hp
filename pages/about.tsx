@@ -18,7 +18,7 @@ export default function Index() {
                     <p className="max-w-screen-md text-gray-600 text-sm md:text-base mt-10 md:mt-20 text-center mx-auto">
                         <span className="inline-block leading-relaxed">「最終的にはホームページ制作に限らず、</span>
                         <span className="inline-block leading-relaxed">ITのトータルサポートを目指しています。</span>
-                        <span className="inline-block leading-relaxed">なにかお困りのことがありましたら、お気軽にご相談下さい。」</span>
+                        <span className="inline-block leading-relaxed">なにかお困りのことがありましたら、お気軽にご相談ください。」</span>
                     </p>
                 </SectionContainer>
                 <SectionContainer>
