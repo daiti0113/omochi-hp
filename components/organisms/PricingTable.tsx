@@ -37,9 +37,6 @@ export const PricingTable = () => {
             {/* <!-- plan - start --> */}
             <div className="flex flex-col space-y-4">
                 <div className="flex flex-col border rounded-lg gap-4 p-4 pt-6">
-                    <div className="flex justify-center absolute -top-3 inset-x-0">
-                        <span className="h-6 flex justify-center items-center bg-indigo-500 text-white text-xs font-semibold tracking-widest uppercase rounded-full px-3 py-1">一番人気</span>
-                    </div>
                     <h3 className="text-gray-800 text-2xl font-semibold text-center">ビジネス</h3>
                     <div className="flex justify-center items-end gap-1">
                         <span className="text-4xl text-gray-800 font-bold">¥8,000</span>
