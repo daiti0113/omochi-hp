@@ -8,7 +8,7 @@ type SectionContainerProps = {
 
 export const SectionContainer = ({children, className}: SectionContainerProps) => {
     return (
-        <section className={classNames("px-8 md:px-20 lg:px-44 mt-24 sm:mt-32 md:mt-32", className)}>
+        <section className={classNames("px-8 md:px-20 lg:px-44 mt-24 sm:mt-32 md:mt-40", className)}>
             {children}
         </section>
     )

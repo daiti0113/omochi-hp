@@ -15,7 +15,7 @@ export default function Index() {
                     <title>{SITE_NAME} | 料金プラン</title>
                 </Head>
                 <SectionContainer>
-                    <div className="bg-white py-6 sm:py-8 lg:py-12">
+                    <div className="bg-white pb-6 sm:pb-8 lg:pb-12">
                         <div className="max-w-screen-xl mx-auto">
                             <Headline>料金プラン</Headline>
                             <p className="max-w-screen-md text-gray-500 text-sm md:text-base mt-4 text-center mx-auto">

@@ -3,7 +3,7 @@ import {SectionContainer} from "../molecules/SectionContainer"
 
 export const Message = () => {
     return (
-        <SectionContainer>
+        <SectionContainer className="opacity-0 show-on-scroll">
             <div className="mb-10 md:mb-16">
                 <Headline>
                     <span className="inline-block leading-normal">わかりやすく、負担にならない、</span>
