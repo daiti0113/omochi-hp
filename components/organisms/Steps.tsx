@@ -26,7 +26,7 @@ export const Steps = () => {
                                 <div className="md:hidden text-sm font-normal pt-3 pl-3 text-gray-500">STEP 1</div>
                                 <div className="p-3 text-lg md:text-xl lg:text-2xl">お問い合わせ</div>
                                 <div className="px-3 pb-6 text-gray-500">
-                                    <span className="inline-block leading-normal">「ホームページを作ってみたいな」と思ったら、お問合せフォームよりお気軽にご連絡ください。</span>
+                                    <span className="inline-block leading-normal">お問合せフォームよりお気軽にご連絡ください。</span>
                                 </div>
                             </div>
                         </div>
