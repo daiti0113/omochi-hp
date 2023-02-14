@@ -1,4 +1,5 @@
-import {useState} from "react"
+import Link from "next/link"
+import {ReactNode, useState} from "react"
 import {Headline} from "../atoms/Headline"
 import {SectionContainer} from "../molecules/SectionContainer"
 
@@ -11,20 +12,29 @@ export const FAQ = () => {
                 <div className="max-w-screen-2xl px-4 md:px-8 mx-auto">
                     <div className="flex flex-col max-w-screen-sm border-t mx-auto">
                         <Row
-                            question="How does the product work?"
-                            answer="This is a section of some simple filler text, also known as placeholder text. It shares some characteristics of a real written text but is random or otherwise generated. It may be used to display a sample of fonts or generate text for testing."
+                            question="料金プランについて教えて下さい。"
+                            answer={
+                                <p>
+                                    料金プランは、<span className="font-semibold">初期費用</span>と<span className="font-semibold">月額料金</span>で構成されています。初期費用にはホームページ制作費、月額費用にはサーバーやメンテナンスにかかる運用代行費が含まれています。<br />
+                                    各プランの詳細については、<Link href="/pricing" className="underline hover:text-gray-700">料金プラン</Link>のページをご覧ください。
+                                </p>
+                            }
                         />
                         <Row
-                            question="How does the product work?"
-                            answer="This is a section of some simple filler text, also known as placeholder text. It shares some characteristics of a real written text but is random or otherwise generated. It may be used to display a sample of fonts or generate text for testing."
+                            question="運用代行費（月額料金）の発生はいつからですか？"
+                            answer="運用代行費のお支払いは、ホームページが完成した翌月からとなります。ホームページが完成するまでは月額料金は発生しません。"
                         />
                         <Row
-                            question="How does the product work?"
-                            answer="This is a section of some simple filler text, also known as placeholder text. It shares some characteristics of a real written text but is random or otherwise generated. It may be used to display a sample of fonts or generate text for testing."
+                            question="途中で解約する場合、解約費用や違約金などはありますか？"
+                            answer="違約金や解約金は一切ありません、お好きなタイミングで解約することができます。ご連絡いただいた翌月の解約となるので、その点だけご留意ください。"
                         />
                         <Row
-                            question="How does the product work?"
-                            answer="This is a section of some simple filler text, also known as placeholder text. It shares some characteristics of a real written text but is random or otherwise generated. It may be used to display a sample of fonts or generate text for testing."
+                            question="サイトの更新は何回までできますか？"
+                            answer="原則では月に10回までとしていますが、あくまで過剰な更新をお断りするために定めている上限であるため、常識の範囲内で柔軟に対応させていただいております。お気軽にご相談ください。"
+                        />
+                        <Row
+                            question="ホームページの制作にはどのくらいの時間がかかりますか？"
+                            answer="デザインや機能によりますが、3週間~1ヶ月程度をみていただければと思います。"
                         />
                     </div>
                 </div>
@@ -33,7 +43,7 @@ export const FAQ = () => {
     )
 }
 
-const Row = ({question, answer}: {question: string, answer: string}) => {
+const Row = ({question, answer}: {question: ReactNode, answer: ReactNode}) => {
     const [expanded, setExpanded] = useState(false)
     const onClick = () => setExpanded(!expanded)
 
@@ -52,7 +62,7 @@ const Row = ({question, answer}: {question: string, answer: string}) => {
                 </span>
             </div>
 
-            <p className={`${ expanded ? "" : " hidden"} text-gray-500 mb-4`}>{answer}</p>
+            <div className={`${ expanded ? "" : " hidden"} text-gray-500 mb-4`}>{answer}</div>
         </div>
     )
 }
