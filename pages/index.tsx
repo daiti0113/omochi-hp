@@ -9,7 +9,7 @@ import {Stats} from "../components/organisms/Stats"
 import {MorePosts} from "../components/organisms/MorePosts"
 import {Square} from "../components/atoms/Square"
 import {Steps} from "../components/organisms/Steps"
-import { FAQ } from "../components/organisms/FAQ"
+import {FAQ} from "../components/organisms/FAQ"
 
 type Props = {
   allPosts: Post[]
