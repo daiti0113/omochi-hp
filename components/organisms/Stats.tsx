@@ -44,7 +44,7 @@ export const Stats = () => {
 
                                 {/* <!-- feature - start --> */}
                                 <div className="flex flex-col items-center md:items-start">
-                                    <span className="text-gray-600 text-4xl lg:text-6xl font-semibold mb-2">∞</span>
+                                    <span className="text-gray-600 text-4xl lg:text-6xl font-semibold mb-2">10<span className="pl-1 text-xs text-gray-500">回 / 月</span></span>
                                     <p className="text-gray-600 text-sm font-semibold mb-2">サイト更新*</p>
                                 </div>
                                 {/* <!-- feature - end --> */}
@@ -57,7 +57,7 @@ export const Stats = () => {
                             *SEOレポート作成... Google Analytics や Google Search Console の情報をレポートし、Google での検索向上をお手伝いするサービスです。
                         </p>
                         <p className="text-gray-400 text-xs text-center md:text-start mt-4">
-                            *サイト更新... 文言修正や画像の差し替え、ブログ記事の追加などをいつでも無料で行えます。新規画面の追加は一部有料となってしまう場合があるのでお問い合わせください。
+                            *サイト更新... 原則、月10回までとしていますが、常識の範囲内で臨機応変に対応いたします。ブログ記事以外の新規画面の追加は、一部有料となってしまう場合がございます。
                         </p>
                     </div>
                 </div>
