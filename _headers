@@ -1,0 +1,4 @@
+# Cloudflare Pagesの標準URLをGoogleにインデックスさせないようにするための設定
+# https://developers.cloudflare.com/pages/platform/headers/
+https://omochi-hp.pages.dev/*
+  X-Robots-Tag: noindex

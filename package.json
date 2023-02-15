@@ -2,7 +2,7 @@
   "private": true,
   "scripts": {
     "dev": "next",
-    "build": "next build && next export && yarn sitemap",
+    "build": "next build && next export && yarn sitemap && cp _headers out/",
     "start": "next start",
     "typecheck": "tsc",
     "lint": "eslint '**/*.{js,jsx,ts,tsx}'",
