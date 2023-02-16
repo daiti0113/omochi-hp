@@ -39,7 +39,7 @@ export const OptionTable = () => {
                             <FiFilePlus size={50} />
                         </div>
                         <h3 className="text-lg md:text-xl font-semibold text-center mb-2">ページ追加</h3>
-                        <p className="text-gray-500 text-center mb-2">キャンペーンやイベントの際に柔軟ににページを追加できます。</p>
+                        <p className="text-gray-500 text-center mb-2">キャンペーンやイベントの際に柔軟にページを追加できます。</p>
                         <p className="font-bold">¥10,000 /ページ</p>
                     </div>
 
