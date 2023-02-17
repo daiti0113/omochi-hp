@@ -1,97 +1,78 @@
-import { Headline } from "../atoms/Headline"
+import Link from "next/link"
+import {useEffect, useState} from "react"
+import {Headline} from "../atoms/Headline"
 import {SectionContainer} from "../molecules/SectionContainer"
 
 // eslint-disable-next-line max-lines-per-function
 export const Events = () => {
+    const [events, setEvents] = useState<ConnpassResponse["events"]>([])
+    useEffect(() => {
+        const fetch = async () => {
+            const res = await getEvents()
+            setEvents(res)
+        }
+        fetch()
+    }, [])
+
     return (
         <SectionContainer>
             <Headline>イベント情報</Headline>
             <p className="max-w-screen-md text-gray-500 md:text-lg text-center mx-auto mb-10 md:mb-16 mt-6">
-                <span className="inline-block leading-normal">沖縄県内の「SEO対策」や「SNSマーケティング」に関連する</span>
+                <span className="inline-block leading-normal">沖縄県内のIT系の</span>
                 <span className="inline-block leading-normal">イベント情報をご紹介します。</span>
             </p>
 
-            <div className="grid sm:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2 gap-4 md:gap-6 xl:gap-8">
-                <div className="flex flex-col md:flex-row items-center border rounded-lg overflow-hidden">
-                    <a href="#" className="group w-full md:w-32 lg:w-48 h-48 md:h-full block self-start shrink-0 bg-gray-100 overflow-hidden relative">
-                        <img src="https://images.unsplash.com/photo-1593508512255-86ab42a8e620?auto=format&q=75&fit=crop&w=600" loading="lazy" alt="Photo by Minh Pham" className="w-full h-full object-cover object-center absolute inset-0 group-hover:scale-110 transition duration-200" />
-                    </a>
+            {events.length > 0
+                ? events.map((event) => <Event event={event} key={event.event_id} />)
+                : <p className="text-center mx-auto pb-10">現在、イベント情報はありません</p>
+            }
+        </SectionContainer>
+    )
+}
 
-                    <div className="flex flex-col gap-2 p-4 lg:p-6">
-                        <span className="text-gray-400 text-sm">July 19, 2021</span>
+type ConnpassResponse = {
+    results_start: number
+    results_returned: number
+    results_available: number
+    events: Array<{
+        event_id: number
+        title: string
+        catch: string
+        description: string
+        event_url: string
+        started_at: string
+        ended_at: string
+        owner_display_name: string
+        place: string
+    }>
+}
 
-                        <h2 className="text-gray-800 text-xl font-bold">
-                            <a href="#" className="hover:text-indigo-500 active:text-indigo-600 transition duration-100">New trends in Tech</a>
-                        </h2>
+const getEvents = async () => {
+    try {
+        const res = await fetch("https://connpass.com/api/v1/event/?keyword=%E6%B2%96%E7%B8%84&order=2&count=5")
+        const connpassResponse = await res.json() as ConnpassResponse
+        return connpassResponse.events
+    } catch {
+        return []
+    }
+}
 
-                        <p className="text-gray-500">This is a section of some simple filler text, also known as placeholder text.</p>
+const Event = ({event}: {event: ConnpassResponse["events"][number]}) => {
+    return (
+        <div className="flex flex-col md:flex-row items-center border rounded-lg overflow-hidden">
+            <div className="flex flex-col gap-2 p-4 lg:p-6">
+                <span className="text-gray-400 text-sm">{event.started_at}</span>
 
-                        <div>
-                            <a href="#" className="text-indigo-500 hover:text-indigo-600 active:text-indigo-700 font-semibold transition duration-100">Read more</a>
-                        </div>
-                    </div>
-                </div>
+                <h2 className="text-gray-800 text-xl font-bold">
+                    <a href="#" className="hover:text-indigo-500 active:text-indigo-600 transition duration-100">{event.title}</a>
+                </h2>
 
-                <div className="flex flex-col md:flex-row items-center border rounded-lg overflow-hidden">
-                    <a href="#" className="group w-full md:w-32 lg:w-48 h-48 md:h-full block self-start shrink-0 bg-gray-100 overflow-hidden relative">
-                        <img src="https://images.unsplash.com/photo-1550745165-9bc0b252726f?auto=format&q=75&fit=crop&w=600" loading="lazy" alt="Photo by Lorenzo Herrera" className="w-full h-full object-cover object-center absolute inset-0 group-hover:scale-110 transition duration-200" />
-                    </a>
+                <p className="text-gray-500">{event.description}</p>
 
-                    <div className="flex flex-col gap-2 p-4 lg:p-6">
-                        <span className="text-gray-400 text-sm">April 07, 2021</span>
-
-                        <h2 className="text-gray-800 text-xl font-bold">
-                            <a href="#" className="hover:text-indigo-500 active:text-indigo-600 transition duration-100">Working with legacy stacks</a>
-                        </h2>
-
-                        <p className="text-gray-500">This is a section of some simple filler text, also known as placeholder text.</p>
-
-                        <div>
-                            <a href="#" className="text-indigo-500 hover:text-indigo-600 active:text-indigo-700 font-semibold transition duration-100">Read more</a>
-                        </div>
-                    </div>
-                </div>
-
-                <div className="flex flex-col md:flex-row items-center border rounded-lg overflow-hidden">
-                    <a href="#" className="group w-full md:w-32 lg:w-48 h-48 md:h-full block self-start shrink-0 bg-gray-100 overflow-hidden relative">
-                        <img src="https://images.unsplash.com/photo-1542759564-7ccbb6ac450a?auto=format&q=75&fit=crop&w=600" loading="lazy" alt="Photo by Magicle" className="w-full h-full object-cover object-center absolute inset-0 group-hover:scale-110 transition duration-200" />
-                    </a>
-
-                    <div className="flex flex-col gap-2 p-4 lg:p-6">
-                        <span className="text-gray-400 text-sm">March 15, 2021</span>
-
-                        <h2 className="text-gray-800 text-xl font-bold">
-                            <a href="#" className="hover:text-indigo-500 active:text-indigo-600 transition duration-100">10 best smartphones for devs</a>
-                        </h2>
-
-                        <p className="text-gray-500">This is a section of some simple filler text, also known as placeholder text.</p>
-
-                        <div>
-                            <a href="#" className="text-indigo-500 hover:text-indigo-600 active:text-indigo-700 font-semibold transition duration-100">Read more</a>
-                        </div>
-                    </div>
-                </div>
-
-                <div className="flex flex-col md:flex-row items-center border rounded-lg overflow-hidden">
-                    <a href="#" className="group w-full md:w-32 lg:w-48 h-48 md:h-full block self-start shrink-0 bg-gray-100 overflow-hidden relative">
-                        <img src="https://images.unsplash.com/photo-1610465299996-30f240ac2b1c?auto=format&q=75&fit=crop&w=600" loading="lazy" alt="Photo by Martin Sanchez" className="w-full h-full object-cover object-center absolute inset-0 group-hover:scale-110 transition duration-200" />
-                    </a>
-
-                    <div className="flex flex-col gap-2 p-4 lg:p-6">
-                        <span className="text-gray-400 text-sm">January 27, 2021</span>
-
-                        <h2 className="text-gray-800 text-xl font-bold">
-                            <a href="#" className="hover:text-indigo-500 active:text-indigo-600 transition duration-100">8 High performance Notebooks</a>
-                        </h2>
-
-                        <p className="text-gray-500">This is a section of some simple filler text, also known as placeholder text.</p>
-
-                        <div>
-                            <a href="#" className="text-indigo-500 hover:text-indigo-600 active:text-indigo-700 font-semibold transition duration-100">Read more</a>
-                        </div>
-                    </div>
+                <div>
+                    <Link href={event.event_url} className="text-indigo-500 hover:text-indigo-600 active:text-indigo-700 font-semibold transition duration-100">詳しく見る</Link>
                 </div>
             </div>
-        </SectionContainer>
+        </div>
     )
 }
