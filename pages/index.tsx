@@ -10,6 +10,7 @@ import {MorePosts} from "../components/organisms/MorePosts"
 import {Square} from "../components/atoms/Square"
 import {Steps} from "../components/organisms/Steps"
 import {FAQ} from "../components/organisms/FAQ"
+import {Events} from "../components/organisms/Events"
 
 type Props = {
   allPosts: Post[]
@@ -35,6 +36,7 @@ export default function Index({allPosts}: Props) {
             <Steps />
             {morePosts.length > 0 && <MorePosts posts={morePosts} />}
             <FAQ />
+            <Events />
         </Layout>
     )
 }
