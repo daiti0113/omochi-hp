@@ -15,8 +15,9 @@ export const PricingTable = () => {
                         <span className="text-4xl text-gray-800 font-bold">¥6,000</span>
                         <span className="text-gray-500">/ 月</span>
                     </div>
-                    <div className="flex justify-center items-center text-gray-500 text-sm gap-1 mb-4">
-                        + ¥30,000 の制作費
+                    <div className="flex flex-col justify-center items-center text-gray-500 text-sm gap-1 mb-4">
+                        <span className="line-through">+ ¥30,000 の制作費</span>
+                        <span className="text-indigo-500 font-semibold">今だけ無料キャンペーン中！</span>
                     </div>
                 </div>
 
@@ -42,8 +43,9 @@ export const PricingTable = () => {
                         <span className="text-4xl text-gray-800 font-bold">¥8,000</span>
                         <span className="text-gray-500">/ 月</span>
                     </div>
-                    <div className="flex justify-center items-center text-gray-500 text-sm gap-1 mb-4">
-                        + ¥50,000 の制作費
+                    <div className="flex flex-col justify-center items-center text-gray-500 text-sm gap-1 mb-4">
+                        <span className="line-through">+ ¥50,000 の制作費</span>
+                        <span className="text-indigo-500 font-semibold">今だけ無料キャンペーン中！</span>
                     </div>
                 </div>
 
@@ -65,8 +67,9 @@ export const PricingTable = () => {
                         <span className="text-4xl text-gray-800 font-bold">¥10,000</span>
                         <span className="text-gray-500">/ 月</span>
                     </div>
-                    <div className="flex justify-center items-center text-gray-500 text-sm gap-1 mb-4">
-                        + ¥60,000 の制作費
+                    <div className="flex flex-col justify-center items-center text-gray-500 text-sm gap-1 mb-4">
+                        <span className="line-through">+ ¥60,000 の制作費</span>
+                        <span className="text-indigo-500 font-semibold">今だけ無料キャンペーン中！</span>
                     </div>
                 </div>
 
