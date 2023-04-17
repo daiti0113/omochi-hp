@@ -12,8 +12,8 @@ export const Steps = () => {
                 <div className="flex flex-row">
                     <div className="hidden md:flex flex-col items-center">
                         <div className="w-32 mr-4 flex flex-col items-center justify-center">
-                            <div className="border rounded-full w-14 h-14 flex items-center justify-center">
-                                <span className="text-2xl">1</span>
+                            <div className="border-2 rounded-full border-primary-500 w-14 h-14 flex items-center justify-center">
+                                <span className="text-2xl text-primary-500">1</span>
                             </div>
                         </div>
                         <div className="h-full border-l-4 border-transparent">
@@ -42,8 +42,8 @@ export const Steps = () => {
                 <div className="flex flex-row-reverse">
                     <div className="hidden md:flex flex-col items-center">
                         <div className="w-32 ml-4 flex flex-col items-center justify-center">
-                            <div className="border rounded-full w-14 h-14 flex items-center justify-center">
-                                <div className="text-2xl">2</div>
+                            <div className="border-2 rounded-full border-primary-500 w-14 h-14 flex items-center justify-center">
+                                <div className="text-2xl text-primary-500">2</div>
                             </div>
                         </div>
                         <div className="h-full border-r-4 border-transparent">
@@ -75,8 +75,8 @@ export const Steps = () => {
                 <div className="flex flex-row">
                     <div className="hidden md:flex flex-col items-center">
                         <div className="w-32 mr-4 flex flex-col items-center justify-center">
-                            <div className="border rounded-full w-14 h-14 flex items-center justify-center">
-                                <div className="text-2xl">3</div>
+                            <div className="border-2 rounded-full border-primary-500 w-14 h-14 flex items-center justify-center">
+                                <div className="text-2xl text-primary-500">3</div>
                             </div>
                         </div>
                         <div className="h-full border-l-4 border-transparent">
@@ -108,8 +108,8 @@ export const Steps = () => {
                 <div className="flex flex-row-reverse">
                     <div className="hidden md:flex flex-col items-center">
                         <div className="w-32 ml-4 flex flex-col items-center justify-center">
-                            <div className="border rounded-full w-14 h-14 flex items-center justify-center">
-                                <div className="text-2xl">4</div>
+                            <div className="border-2 rounded-full border-primary-500 w-14 h-14 flex items-center justify-center">
+                                <div className="text-2xl text-primary-500">4</div>
                             </div>
                         </div>
                         <div className="h-full border-r-4 border-transparent">
@@ -139,8 +139,8 @@ export const Steps = () => {
                 <div className="flex flex-row">
                     <div className="hidden md:flex flex-col items-center">
                         <div className="w-32 mr-4 flex flex-col items-center justify-center">
-                            <div className="border rounded-full w-14 h-14 flex items-center justify-center">
-                                <div className="text-2xl">5</div>
+                            <div className="border-2 rounded-full border-primary-500 w-14 h-14 flex items-center justify-center">
+                                <div className="text-2xl text-primary-500">5</div>
                             </div>
                         </div>
                         <div className="h-full border-l-4 border-transparent">
@@ -169,8 +169,8 @@ export const Steps = () => {
                 <div className="flex flex-row-reverse">
                     <div className="hidden md:flex flex-col items-center">
                         <div className="w-32 ml-4 flex flex-col items-center justify-center">
-                            <div className="border rounded-full w-14 h-14 flex items-center justify-center">
-                                <div className="text-2xl">6</div>
+                            <div className="border-2 rounded-full border-primary-500 w-14 h-14 flex items-center justify-center">
+                                <div className="text-2xl text-primary-500">6</div>
                             </div>
                         </div>
                         <div className="h-full border-r-4 border-transparent">
@@ -199,8 +199,8 @@ export const Steps = () => {
                 <div className="flex flex-row">
                     <div className="hidden md:flex flex-col items-center">
                         <div className="w-32 mr-4 flex flex-col items-center justify-center">
-                            <div className="border rounded-full w-14 h-14 flex items-center justify-center">
-                                <div className="text-2xl">7</div>
+                            <div className="border-2 rounded-full border-primary-500 w-14 h-14 flex items-center justify-center">
+                                <div className="text-2xl text-primary-500">7</div>
                             </div>
                         </div>
                         <div className="h-full border-l-4 border-transparent">
@@ -231,8 +231,8 @@ export const Steps = () => {
                 <div className="flex flex-row-reverse">
                     <div className="hidden md:flex flex-col items-center">
                         <div className="w-32 ml-4 flex flex-col items-center justify-center">
-                            <div className="border rounded-full w-14 h-14 flex items-center justify-center">
-                                <div className="text-2xl">8</div>
+                            <div className="border-2 rounded-full border-primary-500 w-14 h-14 flex items-center justify-center">
+                                <div className="text-2xl text-primary-500">8</div>
                             </div>
                         </div>
                     </div>
