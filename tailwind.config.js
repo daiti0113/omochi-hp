@@ -34,7 +34,8 @@ module.exports = {
                 md: "0 8px 30px rgba(0, 0, 0, 0.12)"
             },
             animation: {
-                slideIn: "slideIn 1s ease-in forwards"
+                slideIn: "slideIn 1s ease-in forwards",
+                scrollEffect: "pathmove 1.4s ease-in-out infinite"
             },
             keyframes: {
                 slideIn: {
@@ -45,6 +46,22 @@ module.exports = {
                     "100%": {
                         opacity: 1,
                         transform: "translateY(0)"
+                    }
+                },
+                pathmove: {
+                    "0%": {
+                        height: 0,
+                        top: 0,
+                        opacity: 0
+                    },
+                    "30%": {
+                        height: 30,
+                        opacity: 1
+                    },
+                    "100%": {
+                        height: 0,
+                        top: 50,
+                        opacity: 0
                     }
                 }
             }
