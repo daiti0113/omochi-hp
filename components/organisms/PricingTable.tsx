@@ -6,9 +6,9 @@ export const PricingTable = () => {
         <div className="grid lg:grid-cols-3 gap-x-6 lg:gap-x-8 gap-y-12 my-6 md:my-8">
             {/* <!-- plan - start --> */}
             <div className="flex flex-col space-y-4">
-                <div className="flex flex-col border border-indigo-500 rounded-lg relative gap-4 p-4 pt-6">
+                <div className="flex flex-col border border-primary-500 rounded-lg relative gap-4 p-4 pt-6">
                     <div className="flex justify-center absolute -top-3 inset-x-0">
-                        <span className="h-6 flex justify-center items-center bg-indigo-500 text-white text-xs font-semibold tracking-widest uppercase rounded-full px-3 py-1">一番人気</span>
+                        <span className="h-6 flex justify-center items-center bg-primary-500 text-white text-xs font-semibold tracking-widest uppercase rounded-full px-3 py-1">一番人気</span>
                     </div>
                     <h3 className="text-gray-800 text-2xl font-semibold text-center">スタンダード</h3>
                     <div className="flex justify-center items-end gap-1">
@@ -17,7 +17,7 @@ export const PricingTable = () => {
                     </div>
                     <div className="flex flex-col justify-center items-center text-gray-500 text-sm gap-1 mb-4">
                         <span className="line-through">+ ¥30,000 の制作費</span>
-                        <span className="text-indigo-500 font-semibold">今だけ無料キャンペーン中！</span>
+                        <span className="text-primary-500 font-semibold">今だけ無料キャンペーン中！</span>
                     </div>
                 </div>
 
@@ -45,7 +45,7 @@ export const PricingTable = () => {
                     </div>
                     <div className="flex flex-col justify-center items-center text-gray-500 text-sm gap-1 mb-4">
                         <span className="line-through">+ ¥50,000 の制作費</span>
-                        <span className="text-indigo-500 font-semibold">今だけ無料キャンペーン中！</span>
+                        <span className="text-primary-500 font-semibold">今だけ無料キャンペーン中！</span>
                     </div>
                 </div>
 
@@ -69,7 +69,7 @@ export const PricingTable = () => {
                     </div>
                     <div className="flex flex-col justify-center items-center text-gray-500 text-sm gap-1 mb-4">
                         <span className="line-through">+ ¥60,000 の制作費</span>
-                        <span className="text-indigo-500 font-semibold">今だけ無料キャンペーン中！</span>
+                        <span className="text-primary-500 font-semibold">今だけ無料キャンペーン中！</span>
                     </div>
                 </div>
 

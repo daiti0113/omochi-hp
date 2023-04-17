@@ -8,7 +8,7 @@ export const OptionTable = () => {
             <div className="max-w-screen-2xl px-4 md:px-8 mx-auto">
                 <div className="grid sm:grid-cols-2 gap-12 xl:gap-16">
                     <div className="flex flex-col items-center">
-                        <div className="w-12 md:w-14 h-12 md:h-14 flex justify-center items-center text-indigo-500 mb-2 sm:mb-4 text-4xl">
+                        <div className="w-12 md:w-14 h-12 md:h-14 flex justify-center items-center text-primary-500 mb-2 sm:mb-4 text-4xl">
                             **.com
                         </div>
                         <h3 className="text-lg md:text-xl font-semibold text-center mb-2">独自ドメイン</h3>
@@ -17,7 +17,7 @@ export const OptionTable = () => {
                     </div>
 
                     <div className="flex flex-col items-center">
-                        <div className="w-12 md:w-14 h-12 md:h-14 flex justify-center items-center text-indigo-500 mb-2 sm:mb-4">
+                        <div className="w-12 md:w-14 h-12 md:h-14 flex justify-center items-center text-primary-500 mb-2 sm:mb-4">
                             <FiShoppingCart size={50} />
                         </div>
                         <h3 className="text-lg md:text-xl font-semibold text-center mb-2">ネットショップ</h3>
@@ -26,7 +26,7 @@ export const OptionTable = () => {
                     </div>
 
                     <div className="flex flex-col items-center">
-                        <div className="w-12 md:w-14 h-12 md:h-14 flex justify-center items-center text-indigo-500 mb-2 sm:mb-4">
+                        <div className="w-12 md:w-14 h-12 md:h-14 flex justify-center items-center text-primary-500 mb-2 sm:mb-4">
                             <FiTrendingUp size={50} />
                         </div>
                         <h3 className="text-lg md:text-xl font-semibold text-center mb-2">SEO対策</h3>
@@ -35,7 +35,7 @@ export const OptionTable = () => {
                     </div>
 
                     <div className="flex flex-col items-center">
-                        <div className="w-12 md:w-14 h-12 md:h-14 flex justify-center items-center text-indigo-500 mb-2 sm:mb-4">
+                        <div className="w-12 md:w-14 h-12 md:h-14 flex justify-center items-center text-primary-500 mb-2 sm:mb-4">
                             <FiFilePlus size={50} />
                         </div>
                         <h3 className="text-lg md:text-xl font-semibold text-center mb-2">ページ追加</h3>
@@ -44,7 +44,7 @@ export const OptionTable = () => {
                     </div>
 
                     <div className="flex flex-col items-center">
-                        <div className="w-12 md:w-14 h-12 md:h-14 flex justify-center items-center text-indigo-500 mb-2 sm:mb-4">
+                        <div className="w-12 md:w-14 h-12 md:h-14 flex justify-center items-center text-primary-500 mb-2 sm:mb-4">
                             <MdOutlineDraw size={50} />
                         </div>
                         <h3 className="text-lg md:text-xl font-semibold text-center mb-2">ロゴ制作</h3>
