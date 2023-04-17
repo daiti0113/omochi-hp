@@ -67,13 +67,13 @@ const Event = ({event}: {event: ConnpassResponse["events"][number]}) => {
                 <span className="text-gray-400 text-sm"><DateFormatter dateString={event.started_at} showTime /></span>
 
                 <h2 className="text-gray-800 text-xl font-bold">
-                    <a href="#" className="hover:text-primary-500 active:text-indigo-600 transition duration-100">{event.title}</a>
+                    <a href="#" className="hover:text-primary-500 active:text-primary-600 transition duration-100">{event.title}</a>
                 </h2>
 
                 <p className="text-gray-500">{event.catch}</p>
 
                 <div>
-                    <Link href={event.event_url} className="text-primary-500 hover:text-indigo-600 active:text-indigo-700 font-semibold transition duration-100">詳しく見る</Link>
+                    <Link href={event.event_url} className="text-primary-500 hover:text-primary-600 active:text-primary-700 font-semibold transition duration-100">詳しく見る</Link>
                 </div>
             </div>
         </div>
