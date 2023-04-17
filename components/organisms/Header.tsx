@@ -3,12 +3,14 @@ import Link from "next/link"
 import {useRouter} from "next/router"
 import {useState} from "react"
 import {CONTACT_URL} from "../../lib/constants"
+import {useWindowSize} from "../../lib/useWindowSize"
 
 // eslint-disable-next-line max-lines-per-function, complexity
 export const Header = () => {
     const [menuVisible, setMenuVisible] = useState(false)
     const router = useRouter()
     const isHome = router.pathname === "/"
+    const [width] = useWindowSize()
 
     return (
         <header className="flex justify-between items-center py-4 md:py-8 px-8 md:px-20 lg:px-44">
@@ -18,7 +20,7 @@ export const Header = () => {
                     loader={({src}) => src}
                     src="/assets/logo.png"
                     alt="プロフィール写真"
-                    width={230}
+                    width={width >= 1280 ? 230 : width >= 1024 ? 200 : 150}
                     height={45}
                 />
             </a>
