@@ -8,7 +8,18 @@ module.exports = {
                 "accent-2": "#EAEAEA",
                 "accent-7": "#333",
                 success: "#0070f3",
-                cyan: "#79FFE1"
+                cyan: "#79FFE1",
+                black: "#383838",
+                primary: {
+                    700: "#0C666E",
+                    600: "#1C7A88",
+                    500: "#208da0",
+                    400: "#25A1BA",
+                    300: "#2DC2E0",
+                    200: "#3ACCE6",
+                    100: "#86E2F2",
+                    50: "#E1F8FC"
+                }
             },
             spacing: {
                 28: "7rem"
@@ -30,7 +41,8 @@ module.exports = {
                 md: "0 8px 30px rgba(0, 0, 0, 0.12)"
             },
             animation: {
-                slideIn: "slideIn 1s ease-in forwards"
+                slideIn: "slideIn 1s ease-in forwards",
+                scrollEffect: "pathmove 1.4s ease-in-out infinite"
             },
             keyframes: {
                 slideIn: {
@@ -41,6 +53,22 @@ module.exports = {
                     "100%": {
                         opacity: 1,
                         transform: "translateY(0)"
+                    }
+                },
+                pathmove: {
+                    "0%": {
+                        height: 0,
+                        top: 0,
+                        opacity: 0
+                    },
+                    "30%": {
+                        height: 30,
+                        opacity: 1
+                    },
+                    "100%": {
+                        height: 0,
+                        top: 50,
+                        opacity: 0
                     }
                 }
             }

@@ -30,21 +30,21 @@ export const Stats = () => {
                             <div className="grid grid-cols-1 sm:grid-cols-3 px-10 sm:px-0 gap-3">
                                 {/* <!-- feature - start --> */}
                                 <div className="flex flex-col items-center md:items-start">
-                                    <span className="text-gray-600 text-4xl lg:text-6xl font-semibold mb-2">¥0</span>
+                                    <span className="text-primary-500 text-4xl lg:text-6xl font-semibold mb-2">¥0</span>
                                     <p className="text-gray-600 text-sm font-semibold mb-2">解約費用</p>
                                 </div>
                                 {/* <!-- feature - end --> */}
 
                                 {/* <!-- feature - start --> */}
                                 <div className="flex flex-col items-center md:items-start">
-                                    <span className="text-gray-600 text-4xl lg:text-6xl font-semibold mb-2">¥0</span>
+                                    <span className="text-primary-500 text-4xl lg:text-6xl font-semibold mb-2">¥0</span>
                                     <p className="text-gray-600 text-sm font-semibold mb-2">SEOレポート作成*</p>
                                 </div>
                                 {/* <!-- feature - end --> */}
 
                                 {/* <!-- feature - start --> */}
                                 <div className="flex flex-col items-center md:items-start">
-                                    <span className="text-gray-600 text-4xl lg:text-6xl font-semibold mb-2">10<span className="pl-1 text-xs text-gray-500">回 / 月</span></span>
+                                    <span className="text-primary-500 text-4xl lg:text-6xl font-semibold mb-2">10<span className="pl-1 text-xs text-primary-500">回 / 月</span></span>
                                     <p className="text-gray-600 text-sm font-semibold mb-2">サイト更新*</p>
                                 </div>
                                 {/* <!-- feature - end --> */}

@@ -1,22 +1,28 @@
+import Image from "next/image"
 import Link from "next/link"
 import {useRouter} from "next/router"
 import {useState} from "react"
 import {CONTACT_URL} from "../../lib/constants"
+import {useWindowSize} from "../../lib/useWindowSize"
 
 // eslint-disable-next-line max-lines-per-function, complexity
 export const Header = () => {
     const [menuVisible, setMenuVisible] = useState(false)
     const router = useRouter()
     const isHome = router.pathname === "/"
+    const [width] = useWindowSize()
 
     return (
         <header className="flex justify-between items-center py-4 md:py-8 px-8 md:px-20 lg:px-44">
             {/* <!-- logo - start --> */}
-            <a href="/" className="inline-flex items-center text-black-800 text-2xl md:text-3xl font-bold gap-2.5" aria-label="logo">
-                <svg width="95" height="94" viewBox="0 0 95 94" className="w-6 h-auto text-indigo-500" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M96 0V47L48 94H0V47L48 0H96Z" />
-                </svg>
-                Omochi
+            <a href="/" aria-label="logo">
+                <Image
+                    loader={({src}) => src}
+                    src="/assets/logo.png"
+                    alt="プロフィール写真"
+                    width={width >= 1280 ? 230 : width >= 1024 ? 200 : 150}
+                    height={45}
+                />
             </a>
             {/* <!-- logo - end --> */}
 
