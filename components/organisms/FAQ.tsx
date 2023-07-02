@@ -51,7 +51,7 @@ const Row = ({question, answer}: {question: ReactNode, answer: ReactNode}) => {
         <div className="border-b">
             <div
                 onClick={onClick}
-                className="flex justify-between text-black hover:text-primary-500 active:text-indigo-600 cursor-pointer gap-2 py-4"
+                className="flex justify-between text-black hover:text-primary-500 active:text-primary-700 cursor-pointer gap-2 py-4"
             >
                 <span className="md:text-lg font-semibold transition duration-100">{question}</span>
 
