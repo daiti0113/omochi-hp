@@ -49,7 +49,7 @@ export const OptionTable = () => {
                         </div>
                         <h3 className="text-lg md:text-xl font-semibold text-center mb-2">ロゴ制作</h3>
                         <p className="text-gray-500 text-center mb-2">ヒアリングを重ね、イメージにあったロゴを制作します。</p>
-                        <p className="font-bold">¥10,000 /件</p>
+                        <p className="font-bold">¥20,000 /件</p>
                     </div>
                 </div>
             </div>
