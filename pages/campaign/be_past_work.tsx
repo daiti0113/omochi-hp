@@ -105,12 +105,16 @@ const Message = () => {
                     <span className="inline-block leading-relaxed">運用代行費などの手数料がかかります。</span>
                     <span className="inline-block leading-relaxed">しかし、本キャンペーンの価格は、</span>
                     <span className="inline-block leading-relaxed">原価とほぼ同額に設定しています。</span>
-                    <span className="inline-block leading-relaxed mt-4">なんと、それだけではありません。</span>
+                </p>
+                <p className="max-w-screen-md text-gray-500 text-sm md:text-base mt-4 text-center mx-auto">
+                    <span className="inline-block leading-relaxed">なんと、それだけではありません。</span>
                     <span className="inline-block leading-relaxed">ホームページの制作費は<span className="font-bold">無料</span>、</span>
                     <span className="inline-block leading-relaxed">さらに、制作したホームページを</span>
                     <span className="inline-block leading-relaxed">検索順位で上位に上げるための</span>
                     <span className="inline-block leading-relaxed"><span className="font-bold">SEO対策 オプション</span>まで付いています！</span>
-                    <span className="inline-block leading-relaxed mt-4">ここまでする理由は、</span>
+                </p>
+                <p className="max-w-screen-md text-gray-500 text-sm md:text-base mt-4 text-center mx-auto">
+                    <span className="inline-block leading-relaxed">ここまでする理由は、</span>
                     <span className="inline-block leading-relaxed">Omochi の制作実績を増やしたいからです！</span>
                     <span className="inline-block leading-relaxed">ぜひこの機会にご依頼ください！</span>
                 </p>
@@ -169,7 +173,7 @@ const PlanDetail = () => {
                 <span className="text-primary-500 font-semibold mt-6">オプションも無料でつきます！</span>
             </div>
 
-            <div className="max-w-xs sm:max-w-none mt-12 sm:mt-20 mx-auto">
+            <div className="max-w-xs sm:max-w-none mt-12 sm:mt-28 mx-auto">
                 <a href={CONTACT_URL} className="block mx-auto bg-gray-800 hover:bg-gray-700 active:bg-gray-600 focus-visible:ring ring-indigo-300 text-white text-sm font-semibold text-center rounded-lg outline-none transition duration-100 px-8 py-3 shadow-xl"><span className="text-xs">まずは </span>お問い合わせ</a>
             </div>
             <div className="mx-auto text-center mb-20">
