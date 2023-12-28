@@ -31,7 +31,7 @@ const PcHero = () => {
                 <div className="relative inline-flex items-center mx-auto align-middle">
                     <div className="pb-12 text-center">
                         <h1 className="flex flex-col font-bold leading-none tracking-tighter text-neutral-600 md:text-5xl lg:text-6xl lg:max-w-7xl">
-                            <span className="text-3xl mb-10">通常『 初期費用 ¥ 20,000 ＋ 月額 ¥ 10,000 』のところ</span>
+                            <span className="text-3xl mb-10">通常『 初期費用 ¥ 30,000 ＋ 月額 約 ¥ 10,000 』のところ</span>
                             <span className="text-8xl text-transparent bg-clip-text bg-gradient-to-r to-emerald-600 from-sky-400">月額</span>
                             <span className="text-[256px] text-transparent bg-clip-text bg-gradient-to-r to-emerald-600 from-sky-400">¥3,000</span>
                             <span className="text-6xl mt-6">キャンペーン実施中</span>
@@ -59,8 +59,8 @@ const MobileHero = () => {
                     <div className="pb-12 text-center">
                         <h1 className="flex flex-col font-bold leading-none tracking-tighter text-neutral-600">
                             <span className="text-sm sm:hidden">制作事例の募集に伴い、</span>
-                            <span className="text-sm sm:hidden mb-6">通常『 初期費用 ¥ 20,000 ＋ 月額 ¥ 10,000 』が</span>
-                            <span className="hidden text-xl mb-10 sm:inline">通常『 初期費用 ¥ 20,000 ＋ 月額 ¥ 10,000 』のところ</span>
+                            <span className="text-sm sm:hidden mb-6">通常『 初期費用 ¥ 30,000 ＋ 月額 約 ¥ 10,000 』が</span>
+                            <span className="hidden text-xl mb-10 sm:inline">通常『 初期費用 ¥ 30,000 ＋ 月額 約 ¥ 10,000 』のところ</span>
                             <span className="text-2xl sm:text-3xl text-transparent bg-clip-text bg-gradient-to-r to-emerald-600 from-sky-400">月額</span>
                             <span className="text-[86px] sm:text-9xl text-transparent bg-clip-text bg-gradient-to-r to-emerald-600 from-sky-400">¥3,000</span>
                             <span className="text-3xl sm:text-4xl mt-6 sm:mt-8">キャンペーン実施中</span>
