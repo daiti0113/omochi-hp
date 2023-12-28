@@ -14,25 +14,8 @@ export default function Index() {
                 </Head>
                 <PcHero />
                 <MobileHero />
-                <SectionContainer>
-                    <div className="mb-10 md:mb-16">
-                        <Headline>
-                            <span className="inline-block leading-normal">原価スレスレでのキャンペーンです</span>
-                        </Headline>
-                        <p className="max-w-screen-md text-gray-500 text-sm md:text-base mt-8 text-center mx-auto">
-                            <span className="inline-block leading-relaxed">ホームページ制作はわからないことが多く、</span>
-                            <span className="inline-block leading-relaxed">何かと不安になってしまいます。</span>
-                            <span className="inline-block leading-relaxed">必要以上のコスト、効果に見合わないコストを</span>
-                            <span className="inline-block leading-relaxed">支払っていることも少なくありません。</span>
-                            <span className="inline-block leading-relaxed">Omochi では、</span>
-                            <span className="inline-block leading-relaxed">ホームページを作るために必要なコストを</span>
-                            <span className="inline-block leading-relaxed">なるべくわかりやすくご説明し、</span>
-                            <span className="inline-block leading-relaxed">お客様の目的を達成するために</span>
-                            <span className="inline-block leading-relaxed">必要な費用のみをお支払いいただきます。</span>
-                        </p>
-                    </div>
-                </SectionContainer>
-
+                <ScrollDownArrow />
+                <Message />
             </Layout>
         </>
     )
@@ -92,5 +75,43 @@ const MobileHero = () => {
                 </div>
             </div>
         </div>
+    )
+}
+
+const ScrollDownArrow = () => {
+    return (
+        <div className="flex flex-col items-center self-center gap-4">
+            <span className="text-black font-semibold">scroll</span>
+            <div className="relative">
+                <div className="scrolldown1 after:absolute after:top-0 after:bottom-0 after:w-[1px] after:bg-primary-500 after:animate-scrollEffect" />
+            </div>
+        </div>
+    )
+}
+
+const Message = () => {
+    return (
+        <SectionContainer>
+            <div className="mb-10 md:mb-16">
+                <Headline>
+                    <span className="inline-block leading-normal">ほぼ原価でのキャンペーンです</span>
+                </Headline>
+                <p className="max-w-screen-md text-gray-500 text-sm md:text-base mt-8 text-center mx-auto">
+                    <span className="inline-block leading-relaxed">ホームページをもつには、</span>
+                    <span className="inline-block leading-relaxed">サーバーやドメインなどの月額費用が必要です。</span>
+                    <span className="inline-block leading-relaxed">本キャンペーンの価格は、</span>
+                    <span className="inline-block leading-relaxed">その費用(原価)とほぼ同額に設定しています。</span>
+                    <span className="inline-block leading-relaxed mt-4">なんと、それだけではありません。</span>
+                    <span className="inline-block leading-relaxed">ホームページの制作費は<span className="font-bold">無料</span>、</span>
+                    <span className="inline-block leading-relaxed">さらに、制作したホームページを</span>
+                    <span className="inline-block leading-relaxed">検索順位で上位に上げるための</span>
+                    <span className="inline-block leading-relaxed"><span className="font-bold">SEO対策 オプション</span>まで付いています！</span>
+                    <span className="inline-block leading-relaxed mt-4">素直に申し上げます。</span>
+                    <span className="inline-block leading-relaxed">ここまでする理由は、</span>
+                    <span className="inline-block leading-relaxed">Omochi の制作実績を増やしたいからです！</span>
+                    <span className="inline-block leading-relaxed">ぜひこの機会にご依頼ください！</span>
+                </p>
+            </div>
+        </SectionContainer>
     )
 }
