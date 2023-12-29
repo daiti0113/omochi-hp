@@ -55,6 +55,7 @@ const PcHero = () => {
     )
 }
 
+// eslint-disable-next-line max-lines-per-function
 const MobileHero = () => {
     return (
         <div className="w-full px-5 py-12 mx-auto lg:hidden">
@@ -100,6 +101,7 @@ const ScrollDownArrow = () => {
     )
 }
 
+// eslint-disable-next-line max-lines-per-function
 const Message = () => {
     const [ref, inView] = useInView({rootMargin: "-100px 0px"})
 
@@ -176,23 +178,42 @@ const PlanDetail = () => {
                     <FiPlus size={50} />
                 </div>
 
-                <div className="flex flex-col items-center">
+                <div className="flex flex-col items-center bg-gray-100 rounded-lg p-6">
+                    <div className="w-12 md:w-14 h-12 md:h-14 flex justify-center items-center text-primary-500 mb-2 sm:mb-4 text-4xl">
+                        **.com
+                    </div>
+                    <h3 className="text-lg md:text-xl font-semibold text-center mb-2">独自ドメイン</h3>
+                    <p className="text-gray-500 text-center mb-2">信頼性向上やブランディング、SEO対策に効果があります。</p>
+                    <p className="font-bold line-through">¥1,000〜 /月</p>
+                    <p className="text-gray-400 text-xs text-center">※取得可能なドメインについてはお問い合わせください。</p>
+                </div>
+
+                <div className="flex justify-center items-center my-8 sm:my-6">
+                    <FiPlus size={50} />
+                </div>
+
+                <div className="flex flex-col items-center bg-gray-100 rounded-lg p-6">
                     <div className="w-12 md:w-14 h-12 md:h-14 flex justify-center items-center text-primary-500 mb-2 sm:mb-4">
                         <FiTrendingUp size={50} />
                     </div>
                     <h3 className="text-lg md:text-xl font-semibold text-center mb-2">SEO対策 オプション</h3>
                     <p className="text-gray-500 text-center mb-2">SEOレポートの作成に加え、データをもとにGoogleでの検索順位が上がるよう戦略を策定します。</p>
                     <p className="font-bold line-through">¥3,000 /月</p>
-                    <span className="text-primary-500 font-semibold mt-6">オプションも無料でつきます！</span>
                 </div>
 
-                <div className="max-w-xs sm:max-w-none mt-12 sm:mt-28 mx-auto">
+                <span className="flex text-primary-500 font-semibold mt-6 justify-center">オプションも無料でつきます！</span>
+
+                <div className="max-w-xs sm:max-w-none mt-20 sm:mt-28 mx-auto">
                     <a href={CONTACT_URL} className="block mx-auto bg-gray-800 hover:bg-gray-700 active:bg-gray-600 focus-visible:ring ring-indigo-300 text-white text-sm font-semibold text-center rounded-lg outline-none transition duration-100 px-8 py-3 shadow-xl"><span className="text-xs">まずは </span>お問い合わせ</a>
                 </div>
                 <div className="mx-auto text-center mb-20">
-                    <p className="mt-4 text-xs text-gray-500">
+                    <p className="mt-6 text-xs text-gray-500">
                         <span className="inline-block">制作事例の募集に伴うキャンペーンのため、</span>
                         <span className="inline-block">先着5名様までとなっております。</span>
+                    </p>
+                    <p className="mt-2 text-xs text-gray-500">
+                        <span className="inline-block">同一人物による複数回のお申し込みはお断りしています。</span>
+                        <span className="inline-block">また、他の割引との併用はできません。</span>
                     </p>
                 </div>
             </div>
