@@ -41,7 +41,10 @@ const PcHero = () => {
                         </div>
                         <div className="mx-auto">
                             <p className="mt-4 text-xs text-gray-500">
-                                制作事例の募集に伴うキャンペーンのため、先着5名様までとなっております。
+                                制作事例の募集に伴うキャンペーンのため、先着5名様までとなっております。枠が埋まり次第、終了となります。
+                            </p>
+                            <p className="mt-2 text-xs text-gray-500">
+                                同一人物による複数回のお申し込みはお断りしています。また、他の割引との併用はできません。
                             </p>
                         </div>
                     </div>
