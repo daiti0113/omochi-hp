@@ -73,9 +73,13 @@ const MobileHero = () => {
                             <a href={CONTACT_URL} className="block mx-auto bg-gray-800 hover:bg-gray-700 active:bg-gray-600 focus-visible:ring ring-indigo-300 text-white text-sm font-semibold text-center rounded-lg outline-none transition duration-100 px-8 py-3 shadow-xl"><span className="text-xs">まずは </span>お問い合わせ</a>
                         </div>
                         <div className="mx-auto">
-                            <p className="mt-4 text-xs text-gray-500">
+                            <p className="mt-6 text-xs text-gray-500">
                                 <span className="inline-block">制作事例の募集に伴うキャンペーンのため、</span>
                                 <span className="inline-block">先着5名様までとなっております。</span>
+                            </p>
+                            <p className="mt-2 text-xs text-gray-500">
+                                <span className="inline-block">同一人物による複数回のお申し込みはお断りしています。</span>
+                                <span className="inline-block">また、他の割引との併用はできません。</span>
                             </p>
                         </div>
                     </div>
@@ -87,7 +91,7 @@ const MobileHero = () => {
 
 const ScrollDownArrow = () => {
     return (
-        <div className="flex flex-col items-center self-center gap-4 mt-4">
+        <div className="flex flex-col items-center self-center gap-4">
             <span className="text-black font-semibold">scroll</span>
             <div className="relative">
                 <div className="scrolldown1 after:absolute after:top-0 after:bottom-0 after:w-[1px] after:bg-primary-500 after:animate-scrollEffect" />
@@ -112,13 +116,15 @@ const Message = () => {
                     <span className="inline-block leading-relaxed">運用代行費などの手数料がかかります。</span>
                 </p>
                 <p className="max-w-screen-md text-gray-500 text-sm md:text-base mt-4 text-center mx-auto">
-                    <span className="inline-block leading-relaxed">しかし、このキャンペーンでは、作成したホームページを</span>
-                    <span className="inline-block leading-relaxed">制作事例としてご紹介させていただくことを条件に、</span>
+                    <span className="inline-block leading-relaxed">しかし、このキャンペーンでは、</span>
+                    <span className="inline-block leading-relaxed">作成したホームページを</span>
+                    <span className="inline-block leading-relaxed">制作事例としてご紹介させていただくかわりに、</span>
                     <span className="inline-block leading-relaxed">原価に近い水準で価格を設定しました。</span>
+                    <span className="inline-block leading-relaxed">もちろん、解約費用もかかりませんし、契約期間の定めもありません。</span>
                 </p>
                 <p className="max-w-screen-md text-gray-500 text-sm md:text-base mt-4 text-center mx-auto">
                     <span className="inline-block leading-relaxed">しかも、驚きの<span className="font-bold">制作費無料</span>に加えて、</span>
-                    <span className="inline-block leading-relaxed">ホームページ制作後に検索順位で上位に上げるための</span>
+                    <span className="inline-block leading-relaxed">ホームページ制作後に検索順位を上げるための</span>
                     <span className="inline-block leading-relaxed"><span className="font-bold">SEO対策 オプション</span>まで含んでいます！</span>
                     <span className="inline-block leading-relaxed">ぜひ、この機会にご依頼ください！</span>
                 </p>
