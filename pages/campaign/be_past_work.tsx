@@ -97,26 +97,23 @@ const Message = () => {
         <SectionContainer>
             <div className="mb-10 md:mb-16">
                 <Headline>
-                    <span className="inline-block leading-normal">ほぼ原価でのキャンペーンです</span>
+                    <span className="inline-block leading-normal">驚きの価格で、上位表示されるホームページを</span>
                 </Headline>
                 <p className="max-w-screen-md text-gray-500 text-sm md:text-base mt-8 text-center mx-auto">
-                    <span className="inline-block leading-relaxed">通常、ホームページをもつには、</span>
-                    <span className="inline-block leading-relaxed">サーバーやドメインなどの月額費用に加え、</span>
+                    <span className="inline-block leading-relaxed">通常、ホームページを運用するには、</span>
+                    <span className="inline-block leading-relaxed">サーバーやドメインの月額費用に加え、</span>
                     <span className="inline-block leading-relaxed">運用代行費などの手数料がかかります。</span>
-                    <span className="inline-block leading-relaxed">しかし、本キャンペーンの価格は、</span>
-                    <span className="inline-block leading-relaxed">原価とほぼ同額に設定しています。</span>
                 </p>
                 <p className="max-w-screen-md text-gray-500 text-sm md:text-base mt-4 text-center mx-auto">
-                    <span className="inline-block leading-relaxed">なんと、それだけではありません。</span>
-                    <span className="inline-block leading-relaxed">ホームページの制作費は<span className="font-bold">無料</span>、</span>
-                    <span className="inline-block leading-relaxed">さらに、制作したホームページを</span>
-                    <span className="inline-block leading-relaxed">検索順位で上位に上げるための</span>
-                    <span className="inline-block leading-relaxed"><span className="font-bold">SEO対策 オプション</span>まで付いています！</span>
+                    <span className="inline-block leading-relaxed">しかし、このキャンペーンでは、作成したホームページを</span>
+                    <span className="inline-block leading-relaxed">制作事例としてご紹介させていただくことを条件に、</span>
+                    <span className="inline-block leading-relaxed">原価に近い水準で価格を設定しました。</span>
                 </p>
                 <p className="max-w-screen-md text-gray-500 text-sm md:text-base mt-4 text-center mx-auto">
-                    <span className="inline-block leading-relaxed">ここまでする理由は、</span>
-                    <span className="inline-block leading-relaxed">Omochi の制作実績を増やしたいからです！</span>
-                    <span className="inline-block leading-relaxed">ぜひこの機会にご依頼ください！</span>
+                    <span className="inline-block leading-relaxed">しかも、驚きの<span className="font-bold">制作費無料</span>に加えて、</span>
+                    <span className="inline-block leading-relaxed">ホームページ制作後に検索順位で上位に上げるための</span>
+                    <span className="inline-block leading-relaxed"><span className="font-bold">SEO対策 オプション</span>まで含んでいます！</span>
+                    <span className="inline-block leading-relaxed">ぜひ、この機会にご依頼ください！</span>
                 </p>
             </div>
         </SectionContainer>
