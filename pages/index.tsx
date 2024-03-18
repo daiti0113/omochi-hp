@@ -11,7 +11,6 @@ import {Square} from "../components/atoms/Square"
 import {Steps} from "../components/organisms/Steps"
 import {FAQ} from "../components/organisms/FAQ"
 import {Events} from "../components/organisms/Events"
-import {CampaignBanner} from "../components/organisms/CampaignBanner"
 
 type Props = {
   allPosts: Post[]
@@ -31,7 +30,6 @@ export default function Index({allPosts}: Props) {
                 rounded-[40px] min-[480px]:rounded-[100px] md:rounded-[120px]
                 -z-10
             `} />
-            <CampaignBanner />
             <Hero />
             <Message />
             <Stats />
